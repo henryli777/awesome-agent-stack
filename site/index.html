@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <meta name="description" content="A curated, bilingual directory of open-source tools for AI agents, MCP, coding, evaluation, observability, and security.">
+    <meta name="theme-color" content="#f7f6f0">
+    <title>Awesome Agent Stack · 开源智能体工具目录</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#catalog" data-i18n="skip">跳到工具目录</a>
+    <header class="site-header shell">
+      <a class="brand" href="./" aria-label="Awesome Agent Stack">
+        <span class="brand-mark" aria-hidden="true">a<span>↗</span></span>
+        <span class="brand-name">awesome<span>agent stack</span></span>
+      </a>
+      <nav class="header-nav" aria-label="主导航" id="main-nav">
+        <a href="#catalog" class="nav-catalog" data-i18n="navCatalog">探索目录</a>
+        <a href="#about" class="nav-about" data-i18n="navAbout">关于收录</a>
+        <a class="repo-link" id="header-repo" href="https://github.com/henryli777/awesome-agent-stack"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+        <button class="language-button" id="language-toggle" type="button" aria-label="Switch to English">EN</button>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-square" aria-hidden="true"></span> THE OPEN-SOURCE FIELD GUIDE</p>
+          <h1 id="hero-title"><span data-i18n="heroLine1">从想法到可靠的</span><br><span class="hero-highlight" data-i18n="heroLine2">AI Agent。</span></h1>
+          <p class="hero-description" data-i18n="heroDescription">发现真正用得上的开源工具。从构建、连接到评估与安全，为你的下一步找到合适的积木。</p>
+          <a href="#catalog" class="hero-cta"><span data-i18n="heroCta">找到你的工具</span><span aria-hidden="true">↓</span></a>
+        </div>
+        <aside class="field-note" aria-labelledby="field-note-title">
+          <div class="note-top"><span>FIELD NOTES / 001</span><span class="note-symbol" aria-hidden="true">✳</span></div>
+          <h2 id="field-note-title" data-i18n="noteTitle">好工具，<br>值得被发现。</h2>
+          <p data-i18n="noteDescription">少一点盲目试用，多一点场景判断。每个项目都有用途说明、许可证和可回溯的来源。</p>
+          <div class="note-bottom"><span class="note-dot" aria-hidden="true"></span><span data-i18n="noteBottom">开源 · 可检索 · 持续整理</span></div>
+        </aside>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong id="project-total">—</strong><span data-i18n="statProjects">个开源项目</span></div>
+          <div class="hero-stat"><strong id="category-total">6</strong><span data-i18n="statCategories">个工具方向</span></div>
+          <div class="hero-stat stat-date"><span data-i18n="statSnapshot">目录快照</span><strong id="snapshot-date">2026-10-09</strong></div>
+          <p class="stats-note" data-i18n="statsNote">按场景整理，而非排名推荐。<br>Star 与代码推送时间均为核验时的快照。</p>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog-section shell" aria-labelledby="catalog-title">
+        <div class="section-heading"><h2 id="catalog-title"><span class="section-number" aria-hidden="true">01 /</span><span data-i18n="catalogTitle">探索工具目录</span></h2><span class="section-kicker">FIND YOUR NEXT BUILDING BLOCK</span></div>
+        <div class="catalog-layout">
+          <aside class="catalog-sidebar" aria-labelledby="category-title">
+            <h3 id="category-title" data-i18n="categoriesTitle">工具方向</h3>
+            <div id="category-list" class="category-list" role="group" aria-labelledby="category-title"></div>
+            <div class="sidebar-note"><span aria-hidden="true">↳</span><p data-i18n="sidebarNote">从使用场景出发，<br>找到适合自己的工具。</p></div>
+            <a class="submit-link" id="sidebar-contribute" href="https://github.com/henryli777/awesome-agent-stack/issues/new?template=submit-project.yml"><span data-i18n="submit">推荐一个项目</span><span aria-hidden="true">↗</span></a>
+          </aside>
+          <div class="catalog-main">
+            <div class="search-box">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.4 15.4 5 5"></path></svg>
+              <label class="visually-hidden" for="search-input" data-i18n="searchLabel">搜索名称、用途、标签或仓库</label>
+              <input id="search-input" type="search" maxlength="300" autocomplete="off" spellcheck="false" placeholder="搜索工具、用途或标签…" disabled>
+              <button class="clear-search" id="clear-search" type="button" aria-label="清空搜索" hidden>×</button>
+            </div>
+            <div class="filter-bar">
+              <div class="select-control"><label for="license-filter" data-i18n="licenseLabel">许可证</label><select id="license-filter" disabled><option value="all">全部许可证</option></select></div>
+              <div class="select-control sort-control"><label for="sort-select" data-i18n="sortLabel">排序</label><select id="sort-select" disabled><option value="az">名称 A–Z</option><option value="stars">Star 快照最多</option><option value="updated">最近代码推送</option></select></div>
+              <button class="reset-filters" id="reset-filters" type="button" hidden data-i18n="reset">重置筛选</button>
+            </div>
+            <div class="results-heading"><div><h3 id="results-title" data-i18n="allProjects">全部项目</h3><p id="category-description" data-i18n="allDescription">构建、连接、观察与验证你的智能体工作流。</p></div><p id="result-count" role="status" aria-live="polite" aria-atomic="true" data-i18n="loading">正在加载目录…</p></div>
+            <div id="status-panel" class="status-panel" role="status">
+              <span class="loading-mark" aria-hidden="true"></span>
+              <h4 id="status-title" data-i18n="loading">正在加载目录…</h4>
+              <p id="status-description" data-i18n="loadingDescription">正在准备工具和来源信息。</p>
+              <div class="status-actions" id="status-actions" hidden>
+                <button type="button" class="button-primary" id="retry-button" data-i18n="retry">重新加载</button>
+                <a id="fallback-readme" href="https://github.com/henryli777/awesome-agent-stack#readme" data-i18n="readmeFallback">查看 GitHub 目录 ↗</a>
+              </div>
+              <button type="button" class="button-primary" id="empty-reset" hidden data-i18n="emptyReset">清空搜索与筛选</button>
+            </div>
+            <div id="project-grid" class="project-grid" aria-label="开源项目列表" hidden></div>
+            <p class="catalog-footnote" id="catalog-footnote" hidden data-i18n="catalogFootnote">Star 为核验时的数量，可能与 GitHub 当前值不同。「本站项目」表示由目录维护者开发。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section shell" aria-labelledby="about-title">
+        <div class="about-panel"><div><p class="eyebrow">A SMALL, USEFUL COLLECTION</p><h2 id="about-title" data-i18n="aboutTitle">一起把这个目录变得更有用。</h2><p data-i18n="aboutDescription">以公开仓库和 README 为依据，记录许可证、实际用途与最近代码推送。发现好项目，或信息需要更新，都欢迎提交。</p></div><a class="about-cta" id="about-contribute" href="https://github.com/henryli777/awesome-agent-stack/issues/new?template=submit-project.yml"><span data-i18n="aboutCta">参与整理</span><span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell"><p><strong>awesome agent stack</strong><span data-i18n="footerTagline">为下一次构建，存一份好工具。</span></p><div><span data-i18n="footerPrivacy">无追踪 · 无广告</span><a id="footer-repo" href="https://github.com/henryli777/awesome-agent-stack" data-i18n="footerSource">查看源码 ↗</a></div></footer>
+    <noscript><p class="noscript-note">此目录需要 JavaScript 来搜索和筛选。<a href="https://github.com/henryli777/awesome-agent-stack#readme">在 GitHub 阅读完整目录 / Read the catalogue on GitHub</a>。</p></noscript>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+name: Suggest a project / 推荐项目
+description: Propose an open-source tool with official evidence.
+title: "[Add] "
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Official repository / 官方仓库
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category / 分类
+      options:
+        - Agent frameworks
+        - MCP and integrations
+        - Coding and skills
+        - Observability
+        - Evaluation
+        - Security and guardrails
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What does it help you do? / 解决什么问题？
+      description: Include a concrete workflow; Chinese or English is welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: README, implementation and license evidence / 证据
+      description: Link to official sources; identify license scope and enterprise/service exceptions.
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Your affiliation / 你与项目的关系
+      placeholder: Maintainer, user, contributor, or none
+    validations:
+      required: true

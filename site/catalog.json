@@ -1,0 +1,1393 @@
+{
+  "schema_version": 1,
+  "title": {
+    "en": "Awesome Agent Stack",
+    "zh": "Agent 开源工具精选"
+  },
+  "updated_at": "2026-10-09",
+  "repo_url": "https://github.com/henryli777/awesome-agent-stack",
+  "categories": [
+    {
+      "id": "frameworks",
+      "label": {
+        "en": "Agent frameworks",
+        "zh": "Agent 框架"
+      },
+      "description": {
+        "en": "Build workflows, state and multi-agent coordination.",
+        "zh": "构建工作流、状态管理和多 Agent 协作。"
+      }
+    },
+    {
+      "id": "mcp",
+      "label": {
+        "en": "MCP & integrations",
+        "zh": "MCP 与集成"
+      },
+      "description": {
+        "en": "Connect agent clients to tools and inspect protocol behavior.",
+        "zh": "连接 Agent 客户端与工具，检查协议交互。"
+      }
+    },
+    {
+      "id": "coding",
+      "label": {
+        "en": "Coding & skills",
+        "zh": "编码与 Skills"
+      },
+      "description": {
+        "en": "Use coding agents and reusable task instructions.",
+        "zh": "使用编码 Agent 和可复用的任务指令。"
+      }
+    },
+    {
+      "id": "observability",
+      "label": {
+        "en": "Observability",
+        "zh": "观测与诊断"
+      },
+      "description": {
+        "en": "Trace tool calls, debug runs and inspect execution metadata.",
+        "zh": "追踪工具调用，调试运行并检查执行元数据。"
+      }
+    },
+    {
+      "id": "evaluation",
+      "label": {
+        "en": "Evaluation",
+        "zh": "评测"
+      },
+      "description": {
+        "en": "Compare behavior against datasets, tasks and quality criteria.",
+        "zh": "通过数据集、任务和质量标准比较效果。"
+      }
+    },
+    {
+      "id": "security",
+      "label": {
+        "en": "Security & guardrails",
+        "zh": "安全与护栏"
+      },
+      "description": {
+        "en": "Probe failures and constrain actions in authorized environments.",
+        "zh": "在授权环境中探查失败模式并约束行为。"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "repo": "openai/openai-agents-python",
+      "id": "openai-agents-python",
+      "name": "OpenAI Agents SDK (Python)",
+      "category": "frameworks",
+      "description": {
+        "en": "A Python SDK that composes tool-using agents with handoffs, guardrails, sessions, and tracing.",
+        "zh": "通过工具、交接、护栏、会话和追踪机制组合智能体的 Python SDK。"
+      },
+      "use_case": {
+        "en": "Build Python agent workflows that need delegated tasks and inspectable execution.",
+        "zh": "构建需要任务委派和执行过程追踪的 Python 智能体工作流。"
+      },
+      "tags": [
+        "python",
+        "multi-agent",
+        "tools",
+        "tracing"
+      ],
+      "website": "https://openai.github.io/openai-agents-python/",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 29926,
+      "pushed_at": "2026-10-08T19:41:57Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/openai/openai-agents-python/blob/125efa029b4bfd84238bd2c4fd69c3406f802663/README.md",
+      "license_evidence_url": "https://github.com/openai/openai-agents-python/blob/125efa029b4bfd84238bd2c4fd69c3406f802663/LICENSE",
+      "source_evidence_url": "https://github.com/openai/openai-agents-python/blob/125efa029b4bfd84238bd2c4fd69c3406f802663/src/agents/__init__.py",
+      "curator_project": false
+    },
+    {
+      "repo": "langchain-ai/langgraph",
+      "id": "langgraph",
+      "name": "LangGraph",
+      "category": "frameworks",
+      "description": {
+        "en": "A graph-based orchestration library for stateful agents with durable execution and human review.",
+        "zh": "面向有状态智能体的图编排库，支持持久化执行和人工审核。"
+      },
+      "use_case": {
+        "en": "Model branching, resumable agent workflows that must preserve state across steps.",
+        "zh": "设计跨步骤保留状态、支持分支和恢复的智能体工作流。"
+      },
+      "tags": [
+        "python",
+        "workflows",
+        "state",
+        "human-in-the-loop"
+      ],
+      "website": "https://docs.langchain.com/oss/python/langgraph/",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 42931,
+      "pushed_at": "2026-10-08T23:10:59Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/langchain-ai/langgraph/blob/bfcfea554ed5c7f7be562cebf8825e911b493ab1/README.md",
+      "license_evidence_url": "https://github.com/langchain-ai/langgraph/blob/bfcfea554ed5c7f7be562cebf8825e911b493ab1/LICENSE",
+      "source_evidence_url": "https://github.com/langchain-ai/langgraph/blob/bfcfea554ed5c7f7be562cebf8825e911b493ab1/libs/checkpoint-postgres/langgraph/checkpoint/postgres/base.py",
+      "curator_project": false
+    },
+    {
+      "repo": "microsoft/agent-framework",
+      "id": "microsoft-agent-framework",
+      "name": "Microsoft Agent Framework",
+      "category": "frameworks",
+      "description": {
+        "en": "A Python and .NET framework for agents and graph workflows with checkpointing, middleware, and telemetry.",
+        "zh": "支持检查点、中间件和遥测的 Python 与 .NET 智能体及图工作流框架。"
+      },
+      "use_case": {
+        "en": "Compose multi-agent orchestration across Python or .NET applications with human review and checkpoints.",
+        "zh": "在 Python 或 .NET 应用中编排多智能体协作，并加入人工审核和检查点。"
+      },
+      "tags": [
+        "python",
+        "dotnet",
+        "multi-agent",
+        "workflows"
+      ],
+      "website": "https://learn.microsoft.com/en-us/agent-framework/",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 14024,
+      "pushed_at": "2026-10-08T23:46:06Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/microsoft/agent-framework/blob/2d9cc3f8ae465baf1aed3022f89b6848db4ffa7b/README.md",
+      "license_evidence_url": "https://github.com/microsoft/agent-framework/blob/2d9cc3f8ae465baf1aed3022f89b6848db4ffa7b/LICENSE",
+      "source_evidence_url": "https://github.com/microsoft/agent-framework/blob/2d9cc3f8ae465baf1aed3022f89b6848db4ffa7b/dotnet/src/Aspire.Hosting.AgentFramework.DevUI/AgentEntityInfo.cs",
+      "curator_project": false
+    },
+    {
+      "repo": "crewAIInc/crewAI",
+      "id": "crewai",
+      "name": "CrewAI",
+      "category": "frameworks",
+      "description": {
+        "en": "A Python framework that combines role-based agent teams with event-driven workflow control.",
+        "zh": "将按角色协作的智能体团队与事件驱动工作流控制结合起来的 Python 框架。"
+      },
+      "use_case": {
+        "en": "Organize specialized agents into Crews and coordinate their work through Flows.",
+        "zh": "通过 Crews 组织专职智能体，再用 Flows 控制任务流程。"
+      },
+      "tags": [
+        "python",
+        "multi-agent",
+        "workflows",
+        "automation"
+      ],
+      "website": "https://docs.crewai.com",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 59482,
+      "pushed_at": "2026-10-09T06:16:45Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/crewAIInc/crewAI/blob/ed71a6f4d631917d8384b4ad44f08bb09647eecd/README.md",
+      "license_evidence_url": "https://github.com/crewAIInc/crewAI/blob/ed71a6f4d631917d8384b4ad44f08bb09647eecd/LICENSE",
+      "source_evidence_url": "https://github.com/crewAIInc/crewAI/blob/ed71a6f4d631917d8384b4ad44f08bb09647eecd/lib/cli/src/crewai_cli/__init__.py",
+      "curator_project": false
+    },
+    {
+      "repo": "pydantic/pydantic-ai",
+      "id": "pydantic-ai",
+      "name": "Pydantic AI",
+      "category": "frameworks",
+      "description": {
+        "en": "A typed Python agent SDK with validated outputs, model integrations, and extensible tools.",
+        "zh": "提供输出校验、模型接入和可扩展工具的类型化 Python 智能体 SDK。"
+      },
+      "use_case": {
+        "en": "Build agents that return structured data and fit existing typed Python applications.",
+        "zh": "构建返回结构化数据、便于接入现有类型化 Python 应用的智能体。"
+      },
+      "tags": [
+        "python",
+        "typed-output",
+        "tools",
+        "validation"
+      ],
+      "website": "https://pydantic.dev/docs/ai/",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 20498,
+      "pushed_at": "2026-10-09T02:19:34Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/pydantic/pydantic-ai/blob/36529f3a8ebc5a5675129fe6262223b9da0815ec/README.md",
+      "license_evidence_url": "https://github.com/pydantic/pydantic-ai/blob/36529f3a8ebc5a5675129fe6262223b9da0815ec/LICENSE",
+      "source_evidence_url": "https://github.com/pydantic/pydantic-ai/blob/36529f3a8ebc5a5675129fe6262223b9da0815ec/pydantic_ai_slim/pydantic_ai/_agent_graph.py",
+      "curator_project": false
+    },
+    {
+      "repo": "google/adk-python",
+      "id": "google-adk-python",
+      "name": "Google ADK (Python)",
+      "category": "frameworks",
+      "description": {
+        "en": "A Python toolkit for composing agents, tool integrations, and graph-based workflow runtimes.",
+        "zh": "用于组合智能体、工具集成和图工作流运行时的 Python 工具包。"
+      },
+      "use_case": {
+        "en": "Develop modular agent systems with delegation, workflow state, and tool confirmation.",
+        "zh": "开发具有任务委派、工作流状态管理和工具确认机制的模块化智能体系统。"
+      },
+      "tags": [
+        "python",
+        "multi-agent",
+        "workflows",
+        "tools"
+      ],
+      "website": "https://adk.dev/",
+      "license": "Apache-2.0",
+      "api_license": "Apache-2.0",
+      "stars": 21756,
+      "pushed_at": "2026-10-09T01:54:39Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/google/adk-python/blob/128faabb6dddacf26e029aa8c28c903c3a7a6b61/README.md",
+      "license_evidence_url": "https://github.com/google/adk-python/blob/128faabb6dddacf26e029aa8c28c903c3a7a6b61/LICENSE",
+      "source_evidence_url": "https://github.com/google/adk-python/blob/128faabb6dddacf26e029aa8c28c903c3a7a6b61/src/google/adk/__init__.py",
+      "curator_project": false
+    },
+    {
+      "repo": "modelcontextprotocol/python-sdk",
+      "id": "mcp-python-sdk",
+      "name": "MCP Python SDK",
+      "category": "mcp",
+      "description": {
+        "en": "The official Python SDK for MCP servers and clients that exchange tools, resources, and prompts.",
+        "zh": "用于在服务器与客户端之间交换工具、资源和提示的官方 MCP Python SDK。"
+      },
+      "use_case": {
+        "en": "Expose Python functions and data through MCP or connect an application to MCP servers.",
+        "zh": "通过 MCP 暴露 Python 函数和数据，或让应用连接 MCP 服务器。"
+      },
+      "tags": [
+        "python",
+        "mcp",
+        "server",
+        "client"
+      ],
+      "website": "https://py.sdk.modelcontextprotocol.io/",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 24517,
+      "pushed_at": "2026-10-05T13:26:06Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md",
+      "license_evidence_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/LICENSE",
+      "source_evidence_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/src/mcp-types/mcp_types/__init__.py",
+      "curator_project": false
+    },
+    {
+      "repo": "modelcontextprotocol/typescript-sdk",
+      "id": "mcp-typescript-sdk",
+      "name": "MCP TypeScript SDK",
+      "category": "mcp",
+      "description": {
+        "en": "The official TypeScript MCP SDK provides server, client, and web-framework transport packages.",
+        "zh": "官方 TypeScript MCP SDK，提供服务器、客户端和 Web 框架传输适配包。"
+      },
+      "use_case": {
+        "en": "Build MCP tools or integrate MCP clients into TypeScript and Node.js services.",
+        "zh": "构建 MCP 工具，或在 TypeScript 与 Node.js 服务中接入 MCP 客户端。"
+      },
+      "tags": [
+        "typescript",
+        "mcp",
+        "server",
+        "client"
+      ],
+      "website": "https://ts.sdk.modelcontextprotocol.io/v2/",
+      "license": "Apache-2.0 / MIT",
+      "api_license": "NOASSERTION",
+      "stars": 13538,
+      "pushed_at": "2026-10-08T23:17:50Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/b022522089a0c8b632595c6e7b536453945ed5a9/README.md",
+      "license_evidence_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/b022522089a0c8b632595c6e7b536453945ed5a9/LICENSE",
+      "source_evidence_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/b022522089a0c8b632595c6e7b536453945ed5a9/packages/client/src/client/auth.ts",
+      "license_note": {
+        "en": "Code is transitioning from MIT to Apache-2.0: new and relicensed contributions use Apache-2.0, while historical contributions without relicensing consent remain MIT; non-specification documentation uses CC-BY-4.0.",
+        "zh": "代码正从 MIT 迁移至 Apache-2.0：新贡献及已获重授权同意的代码采用 Apache-2.0；未获重授权同意的历史贡献仍采用 MIT；非规范文档采用 CC-BY-4.0。"
+      },
+      "curator_project": false
+    },
+    {
+      "repo": "modelcontextprotocol/inspector",
+      "id": "mcp-inspector",
+      "name": "MCP Inspector",
+      "category": "mcp",
+      "description": {
+        "en": "A developer utility for inspecting MCP servers through web, command-line, and terminal interfaces.",
+        "zh": "可通过 Web、命令行和终端界面检查 MCP 服务器的开发工具。"
+      },
+      "use_case": {
+        "en": "Inspect server capabilities and exercise MCP calls while developing integrations.",
+        "zh": "在开发集成时查看服务器能力，并调用 MCP 接口进行调试。"
+      },
+      "tags": [
+        "typescript",
+        "mcp",
+        "debugging",
+        "cli"
+      ],
+      "website": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector",
+      "license": "Apache-2.0 / MIT",
+      "api_license": "NOASSERTION",
+      "stars": 11046,
+      "pushed_at": "2026-10-08T05:05:05Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/modelcontextprotocol/inspector/blob/0d2bc1d91ce177ea8d497ee3efe91bcc59e40a1c/README.md",
+      "license_evidence_url": "https://github.com/modelcontextprotocol/inspector/blob/0d2bc1d91ce177ea8d497ee3efe91bcc59e40a1c/LICENSE",
+      "source_evidence_url": "https://github.com/modelcontextprotocol/inspector/blob/0d2bc1d91ce177ea8d497ee3efe91bcc59e40a1c/clients/cli/src/clear-stored-auth-for-relogin.ts",
+      "license_note": {
+        "en": "Code is transitioning from MIT to Apache-2.0: new and relicensed contributions use Apache-2.0, while historical contributions without relicensing consent remain MIT; non-specification documentation uses CC-BY-4.0.",
+        "zh": "代码正从 MIT 迁移至 Apache-2.0：新贡献及已获重授权同意的代码采用 Apache-2.0；未获重授权同意的历史贡献仍采用 MIT；非规范文档采用 CC-BY-4.0。"
+      },
+      "curator_project": false
+    },
+    {
+      "repo": "modelcontextprotocol/registry",
+      "id": "mcp-registry",
+      "name": "MCP Registry",
+      "category": "mcp",
+      "description": {
+        "en": "A Go registry service and publishing CLI for discovering and registering MCP server metadata.",
+        "zh": "用于发现和登记 MCP 服务器元数据的 Go 注册服务与发布 CLI。"
+      },
+      "use_case": {
+        "en": "Publish MCP server metadata or build a client that discovers servers through a registry API.",
+        "zh": "发布 MCP 服务器元数据，或构建通过注册 API 发现服务器的客户端。"
+      },
+      "tags": [
+        "go",
+        "mcp",
+        "registry",
+        "discovery"
+      ],
+      "website": "https://registry.modelcontextprotocol.io/docs",
+      "license": "Apache-2.0 / MIT",
+      "api_license": "NOASSERTION",
+      "stars": 7331,
+      "pushed_at": "2026-10-08T10:18:38Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/modelcontextprotocol/registry/blob/970df037919faa70456dde08c295473002d850e5/README.md",
+      "license_evidence_url": "https://github.com/modelcontextprotocol/registry/blob/970df037919faa70456dde08c295473002d850e5/LICENSE",
+      "source_evidence_url": "https://github.com/modelcontextprotocol/registry/blob/970df037919faa70456dde08c295473002d850e5/internal/api/handlers/v0/auth/common.go",
+      "license_note": {
+        "en": "Code is transitioning from MIT to Apache-2.0: new and relicensed contributions use Apache-2.0, while historical contributions without relicensing consent remain MIT; non-specification documentation uses CC-BY-4.0.",
+        "zh": "代码正从 MIT 迁移至 Apache-2.0：新贡献及已获重授权同意的代码采用 Apache-2.0；未获重授权同意的历史贡献仍采用 MIT；非规范文档采用 CC-BY-4.0。"
+      },
+      "curator_project": false
+    },
+    {
+      "repo": "PrefectHQ/fastmcp",
+      "id": "fastmcp",
+      "name": "FastMCP",
+      "category": "mcp",
+      "description": {
+        "en": "A Python framework for MCP servers, clients, and interactive tool applications.",
+        "zh": "面向 MCP 服务器、客户端和交互式工具应用的 Python 框架。"
+      },
+      "use_case": {
+        "en": "Turn Python functions into MCP tools and connect local or remote servers with higher-level APIs.",
+        "zh": "把 Python 函数转成 MCP 工具，并通过高层 API 连接本地或远程服务器。"
+      },
+      "tags": [
+        "python",
+        "mcp",
+        "tools",
+        "apps"
+      ],
+      "website": "https://gofastmcp.com",
+      "license": "Apache-2.0",
+      "api_license": "Apache-2.0",
+      "stars": 28017,
+      "pushed_at": "2026-10-09T04:49:08Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/README.md",
+      "license_evidence_url": "https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/LICENSE",
+      "source_evidence_url": "https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/fastmcp_slim/fastmcp/apps/app.py",
+      "curator_project": false
+    },
+    {
+      "repo": "morluto/rea",
+      "id": "rea",
+      "name": "REA",
+      "category": "mcp",
+      "description": {
+        "en": "An MCP server and CLI that connect agents to local binary, JavaScript, and application analysis tools.",
+        "zh": "连接智能体与本地二进制、JavaScript 和应用分析工具的 MCP 服务器及 CLI。"
+      },
+      "use_case": {
+        "en": "Investigate application behavior and native code using analysis evidence from local tools.",
+        "zh": "利用本地工具返回的分析证据研究应用行为和原生代码。"
+      },
+      "tags": [
+        "typescript",
+        "mcp",
+        "reverse-engineering",
+        "cli"
+      ],
+      "website": "https://rea.tools/",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 31645,
+      "pushed_at": "2026-10-09T07:47:14Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/morluto/rea/blob/e6905c18e09c41e04525fb1a84575483df789204/README.md",
+      "license_evidence_url": "https://github.com/morluto/rea/blob/e6905c18e09c41e04525fb1a84575483df789204/LICENSE",
+      "source_evidence_url": "https://github.com/morluto/rea/blob/e6905c18e09c41e04525fb1a84575483df789204/bridge/hopper_bridge.py",
+      "curator_project": false
+    },
+    {
+      "repo": "openai/codex",
+      "id": "codex-cli",
+      "name": "Codex CLI",
+      "category": "coding",
+      "description": {
+        "en": "OpenAI's open-source coding agent that runs locally from the terminal.",
+        "zh": "OpenAI 开源的本地终端编程智能体。"
+      },
+      "use_case": {
+        "en": "Work on repository tasks from a local terminal with a coding agent.",
+        "zh": "在本地终端中借助编程智能体处理仓库任务。"
+      },
+      "tags": [
+        "rust",
+        "coding-agent",
+        "cli",
+        "local"
+      ],
+      "website": "https://developers.openai.com/codex",
+      "license": "Apache-2.0",
+      "api_license": "Apache-2.0",
+      "stars": 128292,
+      "pushed_at": "2026-10-09T05:13:10Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/openai/codex/blob/2351d9e1b608e6f9d9a3699b71d7eb39ee41cfa4/README.md",
+      "license_evidence_url": "https://github.com/openai/codex/blob/2351d9e1b608e6f9d9a3699b71d7eb39ee41cfa4/LICENSE",
+      "source_evidence_url": "https://github.com/openai/codex/blob/2351d9e1b608e6f9d9a3699b71d7eb39ee41cfa4/codex-rs/agent-graph-store/src/error.rs",
+      "curator_project": false
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "id": "opencode",
+      "name": "OpenCode",
+      "category": "coding",
+      "description": {
+        "en": "An open-source coding agent with separate build and planning modes plus subagent support.",
+        "zh": "提供构建与规划模式，并支持子智能体的开源编程智能体。"
+      },
+      "use_case": {
+        "en": "Explore code in planning mode and switch to an agent that can implement changes.",
+        "zh": "先用规划模式理解代码，再切换到可执行修改的智能体。"
+      },
+      "tags": [
+        "typescript",
+        "coding-agent",
+        "cli",
+        "multi-agent"
+      ],
+      "website": "https://opencode.ai",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 212265,
+      "pushed_at": "2026-10-09T07:36:08Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "dev",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/anomalyco/opencode/blob/388406238bd5ca15564a762840a2362c3a45bd9c/README.md",
+      "license_evidence_url": "https://github.com/anomalyco/opencode/blob/388406238bd5ca15564a762840a2362c3a45bd9c/LICENSE",
+      "source_evidence_url": "https://github.com/anomalyco/opencode/blob/388406238bd5ca15564a762840a2362c3a45bd9c/packages/app/src/addons/serialize.ts",
+      "curator_project": false
+    },
+    {
+      "repo": "OpenHands/OpenHands",
+      "id": "openhands-agent-canvas",
+      "name": "OpenHands Agent Canvas",
+      "category": "coding",
+      "description": {
+        "en": "A self-hosted control center for coding agents and automations across local, remote, and cloud backends.",
+        "zh": "可自托管的编程智能体与自动化控制中心，支持本地、远程和云端后端。"
+      },
+      "use_case": {
+        "en": "Run OpenHands or ACP-compatible agents and schedule development workflows from one workspace.",
+        "zh": "在同一工作区运行 OpenHands 或兼容 ACP 的智能体，并调度开发工作流。"
+      },
+      "tags": [
+        "typescript",
+        "coding-agent",
+        "automation",
+        "self-hosted"
+      ],
+      "website": "https://openhands.dev",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 90337,
+      "pushed_at": "2026-10-09T07:30:52Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/OpenHands/OpenHands/blob/553d4519113192a80fb18376fdb6c1e39fa06387/README.md",
+      "license_evidence_url": "https://github.com/OpenHands/OpenHands/blob/553d4519113192a80fb18376fdb6c1e39fa06387/LICENSE",
+      "source_evidence_url": "https://github.com/OpenHands/OpenHands/blob/553d4519113192a80fb18376fdb6c1e39fa06387/src/api/acp-service/acp-service.api.ts",
+      "curator_project": false
+    },
+    {
+      "repo": "google-gemini/gemini-cli",
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "category": "coding",
+      "description": {
+        "en": "A terminal agent for Gemini with file operations, shell tools, search, and MCP integrations.",
+        "zh": "提供文件操作、Shell 工具、搜索和 MCP 集成的 Gemini 终端智能体。"
+      },
+      "use_case": {
+        "en": "Explore and edit code from the terminal or run noninteractive development tasks in scripts.",
+        "zh": "在终端中探索和修改代码，或通过脚本运行非交互开发任务。"
+      },
+      "tags": [
+        "typescript",
+        "coding-agent",
+        "cli",
+        "mcp"
+      ],
+      "website": "https://geminicli.com",
+      "license": "Apache-2.0",
+      "api_license": "Apache-2.0",
+      "stars": 107266,
+      "pushed_at": "2026-10-08T21:57:03Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/google-gemini/gemini-cli/blob/2ce1a6963e9e53a04afaf76111e4527cfa7c5dd7/README.md",
+      "license_evidence_url": "https://github.com/google-gemini/gemini-cli/blob/2ce1a6963e9e53a04afaf76111e4527cfa7c5dd7/LICENSE",
+      "source_evidence_url": "https://github.com/google-gemini/gemini-cli/blob/2ce1a6963e9e53a04afaf76111e4527cfa7c5dd7/packages/a2a-server/src/agent/executor.ts",
+      "curator_project": false
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "id": "skills-cli",
+      "name": "Skills CLI",
+      "category": "coding",
+      "description": {
+        "en": "A CLI for finding, installing, updating, and using agent skills across supported coding agents.",
+        "zh": "可为多种编程智能体查找、安装、更新和使用技能的 CLI。"
+      },
+      "use_case": {
+        "en": "Manage shared SKILL.md packages across a project's supported agent tools.",
+        "zh": "在项目支持的多种智能体工具之间管理共享的 SKILL.md 技能包。"
+      },
+      "tags": [
+        "typescript",
+        "skills",
+        "cli",
+        "tooling"
+      ],
+      "website": "https://skills.sh",
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 33496,
+      "pushed_at": "2026-10-09T06:12:42Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/vercel-labs/skills/blob/e878c4502674f84094dc27b5ad94ddaf64f22551/README.md",
+      "license_evidence_url": "https://github.com/vercel-labs/skills/blob/e878c4502674f84094dc27b5ad94ddaf64f22551/LICENSE",
+      "source_evidence_url": "https://github.com/vercel-labs/skills/blob/e878c4502674f84094dc27b5ad94ddaf64f22551/src/add.ts",
+      "curator_project": false
+    },
+    {
+      "id": "langfuse",
+      "name": "Langfuse",
+      "repo": "langfuse/langfuse",
+      "category": "observability",
+      "description": {
+        "en": "Self-hostable MIT core for LLM traces, prompt versioning, datasets, and evaluations; enterprise directories have a separate license.",
+        "zh": "可自托管的 MIT 核心，支持 LLM 调用追踪、提示词版本、数据集和评测；企业目录另行授权。"
+      },
+      "use_case": {
+        "en": "Debug agent runs and compare prompts and evaluations on your own infrastructure.",
+        "zh": "在自有基础设施上调试 Agent 执行，比较提示词和评测结果。"
+      },
+      "tags": [
+        "tracing",
+        "llmops",
+        "self-hosted"
+      ],
+      "license": "MIT",
+      "stars": 35555,
+      "pushed_at": "2026-10-09T07:46:34Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/langfuse/langfuse/blob/ab8afebee5bfaec4dc60b7a9f214ce5d2d67c074/README.md",
+      "metadata_url": "https://api.github.com/repos/langfuse/langfuse",
+      "commit": "ab8afebee5bfaec4dc60b7a9f214ce5d2d67c074",
+      "source_paths": [
+        "web",
+        "worker"
+      ],
+      "website": "https://langfuse.com",
+      "license_note": {
+        "en": "Manually confirmed from the pinned LICENSE because GitHub API reports NOASSERTION. MIT applies to the core outside ee/, web/src/ee/, and worker/src/ee/; enterprise directories use a separate license.",
+        "zh": "GitHub API 返回 NOASSERTION，已依据固定版本 LICENSE 手动确认。MIT 适用于 ee/、web/src/ee/、worker/src/ee/ 之外的核心；企业目录另行授权。"
+      },
+      "license_evidence_url": "https://github.com/langfuse/langfuse/blob/ab8afebee5bfaec4dc60b7a9f214ce5d2d67c074/LICENSE",
+      "api_license": "NOASSERTION",
+      "license_scope_check_url": "https://api.github.com/repos/langfuse/langfuse/git/trees/ab8afebee5bfaec4dc60b7a9f214ce5d2d67c074?recursive=1",
+      "additional_license_evidence_urls": [
+        "https://github.com/langfuse/langfuse/blob/ab8afebee5bfaec4dc60b7a9f214ce5d2d67c074/ee/LICENSE"
+      ],
+      "curator_project": false
+    },
+    {
+      "id": "langsmith-sdk",
+      "name": "LangSmith SDKs",
+      "repo": "langchain-ai/langsmith-sdk",
+      "category": "observability",
+      "description": {
+        "en": "MIT Python and JavaScript clients for tracing and evaluating apps with LangSmith; the repository covers SDKs, not the service.",
+        "zh": "用于接入 LangSmith 追踪和评测的 MIT Python 与 JavaScript SDK；此仓库仅收录客户端。"
+      },
+      "use_case": {
+        "en": "Instrument model and tool calls when your application uses the LangSmith service.",
+        "zh": "为使用 LangSmith 服务的应用记录模型与工具调用。"
+      },
+      "tags": [
+        "tracing",
+        "sdk",
+        "python",
+        "typescript"
+      ],
+      "license": "MIT",
+      "stars": 1070,
+      "pushed_at": "2026-10-09T05:06:33Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/langchain-ai/langsmith-sdk/blob/19d9fe45dc0d156d7507d983cd23f80daa39693a/README.md",
+      "metadata_url": "https://api.github.com/repos/langchain-ai/langsmith-sdk",
+      "commit": "19d9fe45dc0d156d7507d983cd23f80daa39693a",
+      "source_paths": [
+        "python",
+        "js"
+      ],
+      "website": "https://docs.smith.langchain.com/",
+      "scope_note": {
+        "en": "Open-source client libraries; licensing and availability of LangSmith service are outside this repository.",
+        "zh": "此仓库提供开源客户端库；LangSmith 服务的授权和可用性不属于此仓库。"
+      },
+      "api_license": "MIT",
+      "license_evidence_url": "https://github.com/langchain-ai/langsmith-sdk/blob/19d9fe45dc0d156d7507d983cd23f80daa39693a/LICENSE",
+      "license_note": {
+        "en": "MIT was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.",
+        "zh": "已依据所引提交中的实际授权文件确认 MIT；内置第三方组件保留各自的授权声明。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/langchain-ai/langsmith-sdk/git/trees/19d9fe45dc0d156d7507d983cd23f80daa39693a?recursive=1",
+      "curator_project": false
+    },
+    {
+      "id": "agentops",
+      "name": "AgentOps SDK",
+      "repo": "AgentOps-AI/agentops",
+      "category": "observability",
+      "description": {
+        "en": "MIT Python SDK for agent traces, session events, and LLM cost tracking; the separately ELv2-licensed app/ is excluded.",
+        "zh": "用于 Agent 追踪、会话事件和 LLM 成本统计的 MIT Python SDK；另行采用 ELv2 的 app/ 不在收录范围内。"
+      },
+      "use_case": {
+        "en": "Capture agent execution and provider spend through the SDK, with an AgentOps backend.",
+        "zh": "通过 SDK 和 AgentOps 后端采集 Agent 执行过程与模型费用。"
+      },
+      "tags": [
+        "tracing",
+        "sdk",
+        "cost-tracking"
+      ],
+      "license": "MIT",
+      "stars": 5887,
+      "pushed_at": "2026-06-25T08:25:03Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/README.md",
+      "metadata_url": "https://api.github.com/repos/AgentOps-AI/agentops",
+      "commit": "f8e907b92dabe47232978023fdcb01e2a7d4b752",
+      "source_paths": [
+        "agentops"
+      ],
+      "website": "https://agentops.ai",
+      "scope_note": {
+        "en": "Entry covers the MIT SDK only. app/LICENSE is ELv2 despite a conflicting MIT statement in the root README; the hosted service is separate.",
+        "zh": "此条目仅收录 MIT SDK。app/LICENSE 采用 ELv2，与根目录 README 中的 MIT 表述冲突；托管服务另行提供。"
+      },
+      "scope_evidence_url": "https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/app/LICENSE",
+      "api_license": "MIT",
+      "license_evidence_url": "https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/LICENSE",
+      "license_note": {
+        "en": "The root LICENSE is MIT. The SDK's CrewAI instrumentation has an Apache-2.0 notice. app/LICENSE is ELv2, despite the root README's conflicting MIT app statement; this entry excludes app/ and the hosted service.",
+        "zh": "根目录 LICENSE 采用 MIT；SDK 的 CrewAI 插桩另有 Apache-2.0 声明。app/LICENSE 采用 ELv2，与根目录 README 中的应用 MIT 表述冲突；此条目不收录 app/ 和托管服务。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/AgentOps-AI/agentops/git/trees/f8e907b92dabe47232978023fdcb01e2a7d4b752?recursive=1",
+      "additional_license_evidence_urls": [
+        "https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/app/LICENSE",
+        "https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/agentops/instrumentation/agentic/crewai/LICENSE"
+      ],
+      "curator_project": false
+    },
+    {
+      "id": "helicone",
+      "name": "Helicone",
+      "repo": "Helicone/helicone",
+      "category": "observability",
+      "description": {
+        "en": "Apache-2.0 gateway and observability source for LLM request logging, agent traces, cost, and latency analysis.",
+        "zh": "采用 Apache-2.0 的网关与可观测源码，支持 LLM 请求日志、Agent 追踪、成本和延迟分析。"
+      },
+      "use_case": {
+        "en": "Inspect model requests and agent sessions using a self-hosted observability stack.",
+        "zh": "使用自托管的可观测服务查看模型请求与 Agent 会话。"
+      },
+      "tags": [
+        "gateway",
+        "tracing",
+        "self-hosted"
+      ],
+      "license": "Apache-2.0",
+      "stars": 6210,
+      "pushed_at": "2026-09-16T19:29:27Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/Helicone/helicone/blob/067d9290acb4f1fc9320e902fc67b4b399b50363/README.md",
+      "metadata_url": "https://api.github.com/repos/Helicone/helicone",
+      "commit": "067d9290acb4f1fc9320e902fc67b4b399b50363",
+      "source_paths": [
+        "web",
+        "worker"
+      ],
+      "website": "https://www.helicone.ai",
+      "scope_note": {
+        "en": "Entry covers the Apache-2.0 repository and self-hosting source; managed service and enterprise offerings have separate terms.",
+        "zh": "此条目收录 Apache-2.0 仓库和自托管源码；托管服务与企业产品有各自条款。"
+      },
+      "api_license": "Apache-2.0",
+      "license_evidence_url": "https://github.com/Helicone/helicone/blob/067d9290acb4f1fc9320e902fc67b4b399b50363/LICENSE",
+      "license_note": {
+        "en": "Apache-2.0 confirmed in the pinned root LICENSE. The complete pinned tree contains no additional license file for enterprise directories. Hosted plans and commercial Helm access are separate offerings described in the README.",
+        "zh": "固定版本根目录 LICENSE 确认为 Apache-2.0；完整固定版本目录树未显示企业目录的额外授权文件。README 另行介绍托管套餐和商业 Helm 访问。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/Helicone/helicone/git/trees/067d9290acb4f1fc9320e902fc67b4b399b50363?recursive=1",
+      "curator_project": false
+    },
+    {
+      "id": "promptfoo",
+      "name": "Promptfoo",
+      "repo": "promptfoo/promptfoo",
+      "category": "evaluation",
+      "description": {
+        "en": "MIT CLI and library for prompt and agent evaluations, model comparisons, and configurable red-team tests.",
+        "zh": "MIT CLI 与库，支持提示词和 Agent 评测、模型比较及可配置的红队测试。"
+      },
+      "use_case": {
+        "en": "Run repeatable prompt regressions and adversarial test cases in CI.",
+        "zh": "在 CI 中运行可复现的提示词回归与对抗测试用例。"
+      },
+      "tags": [
+        "evals",
+        "red-teaming",
+        "ci"
+      ],
+      "license": "MIT",
+      "stars": 25833,
+      "pushed_at": "2026-10-09T07:43:37Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/promptfoo/promptfoo/blob/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695/README.md",
+      "metadata_url": "https://api.github.com/repos/promptfoo/promptfoo",
+      "commit": "e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695",
+      "source_paths": [
+        "src"
+      ],
+      "website": "https://promptfoo.dev",
+      "api_license": "MIT",
+      "license_evidence_url": "https://github.com/promptfoo/promptfoo/blob/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695/LICENSE",
+      "license_note": {
+        "en": "MIT confirmed in the pinned root LICENSE and the Crescendo provider's separate MIT notice. This entry covers the community CLI/library; Enterprise SaaS and on-prem offerings are documented separately.",
+        "zh": "已根据固定版本根目录 LICENSE 与 Crescendo 提供程序的独立 MIT 声明确认 MIT。此条目收录社区 CLI 与库；Enterprise SaaS 和本地部署产品另行提供。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/promptfoo/promptfoo/git/trees/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695?recursive=1",
+      "additional_license_evidence_urls": [
+        "https://github.com/promptfoo/promptfoo/blob/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695/src/redteam/providers/crescendo/LICENSE"
+      ],
+      "scope_evidence_url": "https://github.com/promptfoo/promptfoo/blob/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695/site/docs/enterprise/index.md",
+      "curator_project": false
+    },
+    {
+      "id": "deepeval",
+      "name": "DeepEval",
+      "repo": "confident-ai/deepeval",
+      "category": "evaluation",
+      "description": {
+        "en": "Python framework for LLM app tests with task, tool-use, retrieval, and LLM-judge metrics.",
+        "zh": "用于 LLM 应用测试的 Python 框架，提供任务、工具调用、检索和 LLM 裁判指标。"
+      },
+      "use_case": {
+        "en": "Write automated tests for complete agent trajectories and individual steps.",
+        "zh": "为完整 Agent 轨迹与单个执行步骤编写自动化评测。"
+      },
+      "tags": [
+        "evals",
+        "metrics",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "stars": 18711,
+      "pushed_at": "2026-10-07T18:21:15Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/confident-ai/deepeval/blob/0fb05d028b5ded9e4c466140ab3f3af90b801944/README.md",
+      "metadata_url": "https://api.github.com/repos/confident-ai/deepeval",
+      "commit": "0fb05d028b5ded9e4c466140ab3f3af90b801944",
+      "source_paths": [
+        "deepeval"
+      ],
+      "website": "https://deepeval.com",
+      "scope_note": {
+        "en": "Entry covers the open-source test framework; Confident AI is a separate commercial platform.",
+        "zh": "此条目收录开源测试框架；Confident AI 是另行提供的商业平台。"
+      },
+      "api_license": "Apache-2.0",
+      "license_evidence_url": "https://github.com/confident-ai/deepeval/blob/0fb05d028b5ded9e4c466140ab3f3af90b801944/LICENSE.md",
+      "license_note": {
+        "en": "Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.",
+        "zh": "已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/confident-ai/deepeval/git/trees/0fb05d028b5ded9e4c466140ab3f3af90b801944?recursive=1",
+      "curator_project": false
+    },
+    {
+      "id": "ragas",
+      "name": "Ragas",
+      "repo": "vibrantlabsai/ragas",
+      "category": "evaluation",
+      "description": {
+        "en": "Evaluation toolkit with LLM-based and traditional metrics plus test-data generation for LLM and RAG applications.",
+        "zh": "面向 LLM 与 RAG 应用的评测工具，提供模型指标、传统指标和测试数据生成。"
+      },
+      "use_case": {
+        "en": "Generate RAG test sets and score answers and retrieval changes.",
+        "zh": "生成 RAG 测试集，评估回答质量与检索变更。"
+      },
+      "tags": [
+        "rag",
+        "metrics",
+        "test-generation"
+      ],
+      "license": "Apache-2.0",
+      "stars": 15970,
+      "pushed_at": "2026-02-24T07:47:19Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/README.md",
+      "metadata_url": "https://api.github.com/repos/vibrantlabsai/ragas",
+      "commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_paths": [
+        "src"
+      ],
+      "website": "https://docs.ragas.io",
+      "api_license": "Apache-2.0",
+      "license_evidence_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/LICENSE",
+      "license_note": {
+        "en": "Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.",
+        "zh": "已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/vibrantlabsai/ragas/git/trees/298b68274234c060deacab3cf5fb52aa3a20e885?recursive=1",
+      "additional_license_evidence_urls": [
+        "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/examples/LICENSE"
+      ],
+      "curator_project": false
+    },
+    {
+      "id": "inspect-ai",
+      "name": "Inspect AI",
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "category": "evaluation",
+      "description": {
+        "en": "MIT evaluation framework with datasets, tool use, multi-turn solvers, scoring, and evaluation logs.",
+        "zh": "MIT 评测框架，支持数据集、工具调用、多轮执行器、评分和评测日志。"
+      },
+      "use_case": {
+        "en": "Build and run reproducible model and agent evaluation tasks.",
+        "zh": "构建并运行可复现的模型与 Agent 评测任务。"
+      },
+      "tags": [
+        "evals",
+        "python",
+        "tool-use"
+      ],
+      "license": "MIT",
+      "stars": 2964,
+      "pushed_at": "2026-10-09T02:09:22Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/UKGovernmentBEIS/inspect_ai/blob/ba238b00c6da2b61da97577bf839370b1674e847/README.md",
+      "metadata_url": "https://api.github.com/repos/UKGovernmentBEIS/inspect_ai",
+      "commit": "ba238b00c6da2b61da97577bf839370b1674e847",
+      "source_paths": [
+        "src"
+      ],
+      "website": "https://inspect.aisi.org.uk/",
+      "api_license": "MIT",
+      "license_evidence_url": "https://github.com/UKGovernmentBEIS/inspect_ai/blob/ba238b00c6da2b61da97577bf839370b1674e847/LICENSE",
+      "license_note": {
+        "en": "MIT was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.",
+        "zh": "已依据所引提交中的实际授权文件确认 MIT；内置第三方组件保留各自的授权声明。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/UKGovernmentBEIS/inspect_ai/git/trees/ba238b00c6da2b61da97577bf839370b1674e847?recursive=1",
+      "curator_project": false
+    },
+    {
+      "id": "garak",
+      "name": "Garak",
+      "repo": "NVIDIA/garak",
+      "category": "security",
+      "description": {
+        "en": "Apache-2.0 command-line vulnerability scanner with probes and detectors for LLM and dialog-system failure modes.",
+        "zh": "采用 Apache-2.0 的命令行漏洞扫描器，通过探针和检测器检查 LLM 与对话系统的失效模式。"
+      },
+      "use_case": {
+        "en": "Probe model endpoints for prompt injection, leakage, and other adversarial behaviors.",
+        "zh": "对模型端点运行提示词注入、信息泄露等对抗行为探测。"
+      },
+      "tags": [
+        "red-teaming",
+        "scanner",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "stars": 9505,
+      "pushed_at": "2026-10-08T16:44:41Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/NVIDIA/garak/blob/6cea0c92ac8c8dfae0165a3ec47ed4e228299354/README.md",
+      "metadata_url": "https://api.github.com/repos/NVIDIA/garak",
+      "commit": "6cea0c92ac8c8dfae0165a3ec47ed4e228299354",
+      "source_paths": [
+        "garak"
+      ],
+      "website": "https://garak.ai/",
+      "api_license": "Apache-2.0",
+      "license_evidence_url": "https://github.com/NVIDIA/garak/blob/6cea0c92ac8c8dfae0165a3ec47ed4e228299354/LICENSE",
+      "license_note": {
+        "en": "Apache-2.0 confirmed for the scanner source. The bundled HarmBench data has a separate MIT notice.",
+        "zh": "扫描器源码已确认为 Apache-2.0；内置 HarmBench 数据另有 MIT 授权声明。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/NVIDIA/garak/git/trees/6cea0c92ac8c8dfae0165a3ec47ed4e228299354?recursive=1",
+      "additional_license_evidence_urls": [
+        "https://github.com/NVIDIA/garak/blob/6cea0c92ac8c8dfae0165a3ec47ed4e228299354/garak/data/harmbench/LICENSE"
+      ],
+      "curator_project": false
+    },
+    {
+      "id": "invariant",
+      "name": "Invariant Guardrails",
+      "repo": "invariantlabs-ai/invariant",
+      "category": "security",
+      "description": {
+        "en": "Apache-2.0 policy engine for matching agent messages, tool calls, and data flows with Python-inspired rules.",
+        "zh": "采用 Apache-2.0 的策略引擎，以类似 Python 的规则匹配 Agent 消息、工具调用和数据流。"
+      },
+      "use_case": {
+        "en": "Check agent traces locally or enforce policies through an LLM or MCP gateway.",
+        "zh": "在本地检查 Agent 轨迹，或通过 LLM 与 MCP 网关执行策略。"
+      },
+      "tags": [
+        "guardrails",
+        "policy",
+        "mcp"
+      ],
+      "license": "Apache-2.0",
+      "stars": 467,
+      "pushed_at": "2026-01-12T12:50:28Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/invariantlabs-ai/invariant/blob/2340fe2d9cd619f73d5b67fa05bf8a08c7cad515/README.md",
+      "metadata_url": "https://api.github.com/repos/invariantlabs-ai/invariant",
+      "commit": "2340fe2d9cd619f73d5b67fa05bf8a08c7cad515",
+      "source_paths": [
+        "invariant"
+      ],
+      "website": "https://invariantlabs.ai",
+      "api_license": "Apache-2.0",
+      "license_evidence_url": "https://github.com/invariantlabs-ai/invariant/blob/2340fe2d9cd619f73d5b67fa05bf8a08c7cad515/LICENSE",
+      "license_note": {
+        "en": "Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.",
+        "zh": "已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/invariantlabs-ai/invariant/git/trees/2340fe2d9cd619f73d5b67fa05bf8a08c7cad515?recursive=1",
+      "curator_project": false
+    },
+    {
+      "id": "guardrails-ai",
+      "name": "Guardrails AI",
+      "repo": "guardrails-ai/guardrails",
+      "category": "security",
+      "description": {
+        "en": "Apache-2.0 Python framework for composing input/output validators and generating structured LLM outputs.",
+        "zh": "采用 Apache-2.0 的 Python 框架，可组合输入输出验证器并生成结构化 LLM 输出。"
+      },
+      "use_case": {
+        "en": "Add validation rules to model inputs and outputs in application code.",
+        "zh": "在应用代码中为模型输入和输出添加验证规则。"
+      },
+      "tags": [
+        "guardrails",
+        "validation",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "stars": 7499,
+      "pushed_at": "2026-10-09T01:35:31Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/guardrails-ai/guardrails/blob/06d0ff2c5f9bcb493d976b76f885e37e41ce845d/README.md",
+      "metadata_url": "https://api.github.com/repos/guardrails-ai/guardrails",
+      "commit": "06d0ff2c5f9bcb493d976b76f885e37e41ce845d",
+      "source_paths": [
+        "guardrails"
+      ],
+      "website": "https://www.guardrailsai.com/docs",
+      "api_license": "Apache-2.0",
+      "license_evidence_url": "https://github.com/guardrails-ai/guardrails/blob/06d0ff2c5f9bcb493d976b76f885e37e41ce845d/LICENSE",
+      "license_note": {
+        "en": "Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.",
+        "zh": "已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/guardrails-ai/guardrails/git/trees/06d0ff2c5f9bcb493d976b76f885e37e41ce845d?recursive=1",
+      "curator_project": false
+    },
+    {
+      "id": "giskard",
+      "name": "Giskard",
+      "repo": "Giskard-AI/giskard-oss",
+      "category": "evaluation",
+      "description": {
+        "en": "Modular Python testing library for agent scenarios, LLM-judge checks, RAG quality, and vulnerability scans.",
+        "zh": "模块化 Python 测试库，支持 Agent 场景、LLM 裁判检查、RAG 质量评估和漏洞扫描。"
+      },
+      "use_case": {
+        "en": "Generate and run multi-turn agent scenarios with assertions and judges.",
+        "zh": "生成并执行多轮 Agent 测试场景，结合断言与裁判评分。"
+      },
+      "tags": [
+        "evals",
+        "agents",
+        "red-teaming"
+      ],
+      "license": "Apache-2.0",
+      "stars": 5880,
+      "pushed_at": "2026-10-09T04:45:52Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/Giskard-AI/giskard-oss/blob/48814003452c07c19339278e77a13fa07956d1b7/README.md",
+      "metadata_url": "https://api.github.com/repos/Giskard-AI/giskard-oss",
+      "commit": "48814003452c07c19339278e77a13fa07956d1b7",
+      "source_paths": [
+        "libs"
+      ],
+      "website": "https://docs.giskard.ai",
+      "api_license": "Apache-2.0",
+      "license_evidence_url": "https://github.com/Giskard-AI/giskard-oss/blob/48814003452c07c19339278e77a13fa07956d1b7/LICENSE",
+      "license_note": {
+        "en": "Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.",
+        "zh": "已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/Giskard-AI/giskard-oss/git/trees/48814003452c07c19339278e77a13fa07956d1b7?recursive=1",
+      "curator_project": false
+    },
+    {
+      "id": "nemo-guardrails",
+      "name": "NeMo Guardrails",
+      "repo": "NVIDIA-NeMo/Guardrails",
+      "category": "security",
+      "description": {
+        "en": "Programmable guardrails library for LLM conversations, dialog flows, and input/output controls.",
+        "zh": "面向 LLM 对话的可编程防护库，支持对话流程与输入输出控制。"
+      },
+      "use_case": {
+        "en": "Define conversation policies and integrate guardrail configurations around LLM calls.",
+        "zh": "定义对话策略，并在 LLM 调用周围接入防护配置。"
+      },
+      "tags": [
+        "guardrails",
+        "dialog",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "stars": 7268,
+      "pushed_at": "2026-10-09T06:58:37Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "develop",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/NVIDIA-NeMo/Guardrails/blob/7de04a5252ac470e2d562bd281814952672a9bde/README.md",
+      "metadata_url": "https://api.github.com/repos/NVIDIA-NeMo/Guardrails",
+      "commit": "7de04a5252ac470e2d562bd281814952672a9bde",
+      "source_paths": [
+        "nemoguardrails"
+      ],
+      "website": "https://docs.nvidia.com/nemo/guardrails/latest/index.html",
+      "license_note": {
+        "en": "Manually confirmed from the pinned LICENSE.md, which explicitly states Apache-2.0; GitHub API reports NOASSERTION.",
+        "zh": "固定版本 LICENSE.md 明确声明 Apache-2.0，已手动确认；GitHub API 返回 NOASSERTION。"
+      },
+      "license_evidence_url": "https://github.com/NVIDIA-NeMo/Guardrails/blob/7de04a5252ac470e2d562bd281814952672a9bde/LICENSE.md",
+      "api_license": "NOASSERTION",
+      "license_scope_check_url": "https://api.github.com/repos/NVIDIA-NeMo/Guardrails/git/trees/7de04a5252ac470e2d562bd281814952672a9bde?recursive=1",
+      "curator_project": false
+    },
+    {
+      "id": "openinference",
+      "name": "OpenInference",
+      "repo": "Arize-ai/openinference",
+      "category": "observability",
+      "description": {
+        "en": "Apache-2.0 OpenTelemetry conventions and instrumentation libraries for model, retrieval, and tool-call traces.",
+        "zh": "采用 Apache-2.0 的 OpenTelemetry 语义约定与插桩库，记录模型、检索和工具调用轨迹。"
+      },
+      "use_case": {
+        "en": "Export AI application spans to an OpenTelemetry-compatible backend.",
+        "zh": "将 AI 应用的调用跨度导出至兼容 OpenTelemetry 的后端。"
+      },
+      "tags": [
+        "opentelemetry",
+        "instrumentation",
+        "tracing"
+      ],
+      "license": "Apache-2.0",
+      "stars": 1259,
+      "pushed_at": "2026-10-09T05:12:42Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/Arize-ai/openinference/blob/12f2cc035edfb00b60b656d977f07abfb7a69900/README.md",
+      "metadata_url": "https://api.github.com/repos/Arize-ai/openinference",
+      "commit": "12f2cc035edfb00b60b656d977f07abfb7a69900",
+      "source_paths": [
+        "python",
+        "js",
+        "go",
+        "java"
+      ],
+      "website": "https://arize-ai.github.io/openinference/",
+      "api_license": "Apache-2.0",
+      "license_evidence_url": "https://github.com/Arize-ai/openinference/blob/12f2cc035edfb00b60b656d977f07abfb7a69900/LICENSE",
+      "license_note": {
+        "en": "Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.",
+        "zh": "已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/Arize-ai/openinference/git/trees/12f2cc035edfb00b60b656d977f07abfb7a69900?recursive=1",
+      "additional_license_evidence_urls": [
+        "https://github.com/Arize-ai/openinference/blob/12f2cc035edfb00b60b656d977f07abfb7a69900/python/openinference-instrumentation/LICENSE",
+        "https://github.com/Arize-ai/openinference/blob/12f2cc035edfb00b60b656d977f07abfb7a69900/python/instrumentation/openinference-instrumentation-openai-agents/LICENSE"
+      ],
+      "curator_project": false
+    },
+    {
+      "id": "inspect-evals",
+      "name": "Inspect Evals (MIT modules)",
+      "repo": "UKGovernmentBEIS/inspect_evals",
+      "category": "evaluation",
+      "description": {
+        "en": "Inspect AI benchmark implementations, including MIT agentic-misalignment tests; this entry excludes use-restricted modules.",
+        "zh": "基于 Inspect AI 的基准实现，包含 MIT Agent 行为偏差测试；此条目不收录有用途限制的模块。"
+      },
+      "use_case": {
+        "en": "Run existing MIT benchmarks, including multi-step agent behavior tests, with Inspect AI.",
+        "zh": "通过 Inspect AI 复用 MIT 基准，包含多步 Agent 行为测试。"
+      },
+      "tags": [
+        "benchmarks",
+        "evals",
+        "python"
+      ],
+      "license": "MIT",
+      "stars": 696,
+      "pushed_at": "2026-10-09T07:50:13Z",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/README.md",
+      "metadata_url": "https://api.github.com/repos/UKGovernmentBEIS/inspect_evals",
+      "commit": "eb5383efecd8ac6d23fd276757b811f3db05a1f5",
+      "source_paths": [
+        "src/inspect_evals/agentic_misalignment",
+        "src/inspect_evals/arc"
+      ],
+      "website": "https://ukgovernmentbeis.github.io/inspect_evals/",
+      "scope_note": {
+        "en": "Only MIT repository components and MIT benchmark modules are covered. AgentHarm has an additional purpose restriction, and NOTICE identifies Llama 3.2-licensed CyberSecEval code; those modules are excluded.",
+        "zh": "仅收录仓库中的 MIT 组件与 MIT 基准模块。AgentHarm 另有限定用途条款，NOTICE 将部分 CyberSecEval 代码列为 Llama 3.2 授权；这些模块不在收录范围内。"
+      },
+      "api_license": "MIT",
+      "license_evidence_url": "https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/LICENSE",
+      "license_note": {
+        "en": "The root LICENSE and agentic_misalignment/LICENSE are MIT. AgentHarm's LICENSE adds a non-OSI purpose restriction; NOTICE lists Llama 3.2 terms for some CyberSecEval components. This entry does not label the full repository or AgentHarm uniformly MIT.",
+        "zh": "根目录 LICENSE 与 agentic_misalignment/LICENSE 采用 MIT。AgentHarm 的 LICENSE 增加非 OSI 的用途限制；NOTICE 对部分 CyberSecEval 组件列出 Llama 3.2 条款。此条目不将完整仓库或 AgentHarm 统一标为 MIT。"
+      },
+      "license_scope_check_url": "https://api.github.com/repos/UKGovernmentBEIS/inspect_evals/git/trees/eb5383efecd8ac6d23fd276757b811f3db05a1f5?recursive=1",
+      "excluded_source_paths": [
+        "src/inspect_evals/agentharm",
+        "src/inspect_evals/cyberseceval_2",
+        "src/inspect_evals/cyberseceval_3",
+        "src/inspect_evals/cyberseceval_4"
+      ],
+      "additional_license_evidence_urls": [
+        "https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/src/inspect_evals/agentic_misalignment/LICENSE",
+        "https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/src/inspect_evals/agentharm/LICENSE",
+        "https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/NOTICE"
+      ],
+      "scope_evidence_url": "https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/NOTICE",
+      "curator_project": false
+    },
+    {
+      "id": "mcp-session-profiler",
+      "name": "MCP Session Profiler",
+      "repo": "henryli777/mcp-session-profiler",
+      "category": "observability",
+      "description": {
+        "en": "A local stdio proxy that records bounded MCP call metadata and generates offline diagnostic reports; alpha release.",
+        "zh": "本地 stdio 代理，记录有界 MCP 调用元数据并生成离线诊断报告；当前为 Alpha 版本。"
+      },
+      "use_case": {
+        "en": "Inspect actual MCP tool-call latency, errors and response bytes without storing argument/result bodies.",
+        "zh": "检查实际 MCP 工具调用的延迟、错误和响应字节，不保存参数与结果正文。"
+      },
+      "tags": [
+        "mcp",
+        "python",
+        "stdio",
+        "diagnostics"
+      ],
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 0,
+      "pushed_at": "2026-10-09T07:33:39Z",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/henryli777/mcp-session-profiler/blob/426cfd965161e4dd955f8e7c69de3a85302732eb/README.md",
+      "license_evidence_url": "https://github.com/henryli777/mcp-session-profiler/blob/426cfd965161e4dd955f8e7c69de3a85302732eb/LICENSE",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "curator_project": true,
+      "source_evidence_url": "https://github.com/henryli777/mcp-session-profiler/blob/426cfd965161e4dd955f8e7c69de3a85302732eb/src/mcp_session_profiler/cli.py"
+    },
+    {
+      "id": "rea-pentest-playbook-skill",
+      "name": "REA Pentest Playbook Skill",
+      "repo": "henryli777/rea--pentest-playbook-skill",
+      "category": "security",
+      "description": {
+        "en": "A thin skill and Python CLI for an authorized recon, scan, verify and report workflow with preserved evidence.",
+        "zh": "精简 skill 与 Python CLI，提供授权范围内的信息收集、扫描、验证和报告流程，并保存证据。"
+      },
+      "use_case": {
+        "en": "Run bounded observations on owned or explicitly authorized targets and produce an evidence-backed report.",
+        "zh": "对自有或明确授权目标执行有界观察，生成带证据和局限的报告。"
+      },
+      "tags": [
+        "skill",
+        "python",
+        "pentest",
+        "evidence"
+      ],
+      "license": "MIT",
+      "api_license": "MIT",
+      "stars": 1,
+      "pushed_at": "2026-10-09T03:54:03Z",
+      "checked_at": "2026-10-09",
+      "evidence_url": "https://github.com/henryli777/rea--pentest-playbook-skill/blob/228ae444714bae7f3dce1ee8cbee0ce0cf334664/README.md",
+      "license_evidence_url": "https://github.com/henryli777/rea--pentest-playbook-skill/blob/228ae444714bae7f3dce1ee8cbee0ce0cf334664/LICENSE",
+      "archived": false,
+      "fork": false,
+      "default_branch": "main",
+      "curator_project": true,
+      "source_evidence_url": "https://github.com/henryli777/rea--pentest-playbook-skill/blob/228ae444714bae7f3dce1ee8cbee0ce0cf334664/skills/rea-pentest-playbook/scripts/playbook.py"
+    }
+  ]
+}
