@@ -43,3 +43,7 @@ was removed to avoid unexpected focus changes for speech-input users.
 
 Screenshots are visual evidence of the directory UI, not execution evidence for
 the third-party tools. See [preview.png](preview.png).
+
+## Initial publication
+
+[GitHub Actions run](https://github.com/henryli777/awesome-agent-stack/actions/runs/37905521941) passed both verification and Pages deployment. The [live directory](https://henryli777.github.io/awesome-agent-stack/) returned HTTP 200 and its JSON matched the local content source. Chromium loaded all 34 entries under the real Pages subpath, restored the combined filter URL to five results, switched languages, and reported no console errors or warnings.

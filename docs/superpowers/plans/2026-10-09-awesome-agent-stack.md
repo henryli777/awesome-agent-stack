@@ -51,8 +51,8 @@
 
 - [x] Document adding/updating entries, license scope and snapshot limitations.
 - [x] Run complete checks and independent code/content review; address material findings.
-- [ ] Create the authorized public repository, push and enable Pages; confirm Actions success and deployed site behavior.
+- [x] Create the authorized public repository, push and enable Pages; confirm Actions success and deployed site behavior.
 
 ## Verification record
 
-Local verification: 16 Python and 15 Node tests passed; generated artifacts checked; desktop/mobile and error-recovery browser assertions passed. Independent review findings were reproduced and fixed. See `docs/VALIDATION.md`. Publication remains to be confirmed.
+Local verification: 16 Python and 15 Node tests passed; generated artifacts checked; desktop/mobile and error-recovery browser assertions passed. Independent review findings were reproduced and fixed. See `docs/VALIDATION.md`. Public repository and Pages deployment confirmed. Initial Actions run 37905521941 passed; live catalog matches the source and browser subpath checks passed.
