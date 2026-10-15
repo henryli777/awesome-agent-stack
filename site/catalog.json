@@ -97,8 +97,8 @@
       "website": "https://openai.github.io/openai-agents-python/",
       "license": "MIT",
       "api_license": "MIT",
-      "stars": 30038,
-      "pushed_at": "2026-10-15T00:22:34Z",
+      "stars": 30043,
+      "pushed_at": "2026-10-15T02:22:26Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -108,7 +108,7 @@
       "source_evidence_url": "https://github.com/openai/openai-agents-python/blob/125efa029b4bfd84238bd2c4fd69c3406f802663/src/agents/__init__.py",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/openai/openai-agents-python",
-      "metadata_refreshed_at": "2026-10-15T00:51:13Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "langchain-ai/langgraph",
@@ -132,8 +132,8 @@
       "website": "https://docs.langchain.com/oss/python/langgraph/",
       "license": "MIT",
       "api_license": "MIT",
-      "stars": 43281,
-      "pushed_at": "2026-10-15T00:24:45Z",
+      "stars": 43291,
+      "pushed_at": "2026-10-15T04:32:39Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -143,7 +143,7 @@
       "source_evidence_url": "https://github.com/langchain-ai/langgraph/blob/bfcfea554ed5c7f7be562cebf8825e911b493ab1/libs/checkpoint-postgres/langgraph/checkpoint/postgres/base.py",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/langchain-ai/langgraph",
-      "metadata_refreshed_at": "2026-10-15T00:51:13Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "microsoft/agent-framework",
@@ -167,7 +167,7 @@
       "website": "https://learn.microsoft.com/en-us/agent-framework/",
       "license": "MIT",
       "api_license": "MIT",
-      "stars": 14129,
+      "stars": 14132,
       "pushed_at": "2026-10-14T23:54:41Z",
       "archived": false,
       "fork": false,
@@ -178,7 +178,7 @@
       "source_evidence_url": "https://github.com/microsoft/agent-framework/blob/2d9cc3f8ae465baf1aed3022f89b6848db4ffa7b/dotnet/src/Aspire.Hosting.AgentFramework.DevUI/AgentEntityInfo.cs",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/microsoft/agent-framework",
-      "metadata_refreshed_at": "2026-10-15T00:51:13Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "crewAIInc/crewAI",
@@ -202,8 +202,8 @@
       "website": "https://docs.crewai.com",
       "license": "MIT",
       "api_license": "MIT",
-      "stars": 59696,
-      "pushed_at": "2026-10-14T20:08:49Z",
+      "stars": 59706,
+      "pushed_at": "2026-10-15T05:39:23Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -213,7 +213,7 @@
       "source_evidence_url": "https://github.com/crewAIInc/crewAI/blob/ed71a6f4d631917d8384b4ad44f08bb09647eecd/lib/cli/src/crewai_cli/__init__.py",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/crewAIInc/crewAI",
-      "metadata_refreshed_at": "2026-10-15T00:51:13Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "pydantic/pydantic-ai",
@@ -237,8 +237,8 @@
       "website": "https://pydantic.dev/docs/ai/",
       "license": "MIT",
       "api_license": "MIT",
-      "stars": 20619,
-      "pushed_at": "2026-10-15T00:49:02Z",
+      "stars": 20622,
+      "pushed_at": "2026-10-15T05:21:59Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -248,7 +248,7 @@
       "source_evidence_url": "https://github.com/pydantic/pydantic-ai/blob/36529f3a8ebc5a5675129fe6262223b9da0815ec/pydantic_ai_slim/pydantic_ai/_agent_graph.py",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/pydantic/pydantic-ai",
-      "metadata_refreshed_at": "2026-10-15T00:51:13Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "google/adk-python",
@@ -272,8 +272,8 @@
       "website": "https://adk.dev/",
       "license": "Apache-2.0",
       "api_license": "Apache-2.0",
-      "stars": 21852,
-      "pushed_at": "2026-10-15T00:45:07Z",
+      "stars": 21854,
+      "pushed_at": "2026-10-15T05:57:25Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -283,7 +283,7 @@
       "source_evidence_url": "https://github.com/google/adk-python/blob/128faabb6dddacf26e029aa8c28c903c3a7a6b61/src/google/adk/__init__.py",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/google/adk-python",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "modelcontextprotocol/python-sdk",
@@ -307,7 +307,7 @@
       "website": "https://py.sdk.modelcontextprotocol.io/",
       "license": "MIT",
       "api_license": "MIT",
-      "stars": 24574,
+      "stars": 24578,
       "pushed_at": "2026-10-13T10:21:52Z",
       "archived": false,
       "fork": false,
@@ -318,7 +318,7 @@
       "source_evidence_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/src/mcp-types/mcp_types/__init__.py",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/modelcontextprotocol/python-sdk",
-      "metadata_refreshed_at": "2026-10-15T00:52:19Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "modelcontextprotocol/typescript-sdk",
@@ -381,7 +381,7 @@
       "website": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector",
       "license": "Apache-2.0 / MIT",
       "api_license": "NOASSERTION",
-      "stars": 11078,
+      "stars": 11081,
       "pushed_at": "2026-10-14T04:26:29Z",
       "archived": false,
       "fork": false,
@@ -396,7 +396,7 @@
       },
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/modelcontextprotocol/inspector",
-      "metadata_refreshed_at": "2026-10-15T00:52:19Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "modelcontextprotocol/registry",
@@ -459,7 +459,7 @@
       "website": "https://gofastmcp.com",
       "license": "Apache-2.0",
       "api_license": "Apache-2.0",
-      "stars": 28076,
+      "stars": 28077,
       "pushed_at": "2026-10-14T21:11:40Z",
       "archived": false,
       "fork": false,
@@ -470,7 +470,7 @@
       "source_evidence_url": "https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/fastmcp_slim/fastmcp/apps/app.py",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/PrefectHQ/fastmcp",
-      "metadata_refreshed_at": "2026-10-15T00:52:19Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "morluto/rea",
@@ -529,8 +529,8 @@
       "website": "https://developers.openai.com/codex",
       "license": "Apache-2.0",
       "api_license": "Apache-2.0",
-      "stars": 129237,
-      "pushed_at": "2026-10-15T00:01:14Z",
+      "stars": 129277,
+      "pushed_at": "2026-10-15T03:48:51Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -540,7 +540,7 @@
       "source_evidence_url": "https://github.com/openai/codex/blob/2351d9e1b608e6f9d9a3699b71d7eb39ee41cfa4/codex-rs/agent-graph-store/src/error.rs",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/openai/codex",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "anomalyco/opencode",
@@ -599,8 +599,8 @@
       "website": "https://openhands.dev",
       "license": "MIT",
       "api_license": "MIT",
-      "stars": 90920,
-      "pushed_at": "2026-10-15T00:31:45Z",
+      "stars": 90929,
+      "pushed_at": "2026-10-15T04:00:43Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -610,7 +610,7 @@
       "source_evidence_url": "https://github.com/OpenHands/OpenHands/blob/553d4519113192a80fb18376fdb6c1e39fa06387/src/api/acp-service/acp-service.api.ts",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/OpenHands/OpenHands",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "google-gemini/gemini-cli",
@@ -634,7 +634,7 @@
       "website": "https://geminicli.com",
       "license": "Apache-2.0",
       "api_license": "Apache-2.0",
-      "stars": 107371,
+      "stars": 107375,
       "pushed_at": "2026-10-14T19:37:03Z",
       "archived": false,
       "fork": false,
@@ -645,7 +645,7 @@
       "source_evidence_url": "https://github.com/google-gemini/gemini-cli/blob/2ce1a6963e9e53a04afaf76111e4527cfa7c5dd7/packages/a2a-server/src/agent/executor.ts",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/google-gemini/gemini-cli",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "repo": "vercel-labs/skills",
@@ -669,7 +669,7 @@
       "website": "https://skills.sh",
       "license": "MIT",
       "api_license": "MIT",
-      "stars": 34950,
+      "stars": 34990,
       "pushed_at": "2026-10-09T17:54:47Z",
       "archived": false,
       "fork": false,
@@ -680,7 +680,7 @@
       "source_evidence_url": "https://github.com/vercel-labs/skills/blob/e878c4502674f84094dc27b5ad94ddaf64f22551/src/add.ts",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/vercel-labs/skills",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "langfuse",
@@ -701,8 +701,8 @@
         "self-hosted"
       ],
       "license": "MIT",
-      "stars": 35832,
-      "pushed_at": "2026-10-14T21:28:01Z",
+      "stars": 35838,
+      "pushed_at": "2026-10-15T05:54:42Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -727,7 +727,7 @@
       ],
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/langfuse/langfuse",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "langsmith-sdk",
@@ -750,7 +750,7 @@
       ],
       "license": "MIT",
       "stars": 1079,
-      "pushed_at": "2026-10-14T17:56:48Z",
+      "pushed_at": "2026-10-15T04:13:52Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -776,7 +776,7 @@
       "license_scope_check_url": "https://api.github.com/repos/langchain-ai/langsmith-sdk/git/trees/19d9fe45dc0d156d7507d983cd23f80daa39693a?recursive=1",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/langchain-ai/langsmith-sdk",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "agentops",
@@ -797,7 +797,7 @@
         "cost-tracking"
       ],
       "license": "MIT",
-      "stars": 5885,
+      "stars": 5886,
       "pushed_at": "2026-06-25T08:25:03Z",
       "archived": false,
       "fork": false,
@@ -828,7 +828,7 @@
       ],
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/AgentOps-AI/agentops",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "helicone",
@@ -897,7 +897,7 @@
         "ci"
       ],
       "license": "MIT",
-      "stars": 25999,
+      "stars": 26001,
       "pushed_at": "2026-10-15T00:14:30Z",
       "archived": false,
       "fork": false,
@@ -923,7 +923,7 @@
       "scope_evidence_url": "https://github.com/promptfoo/promptfoo/blob/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695/site/docs/enterprise/index.md",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/promptfoo/promptfoo",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "deepeval",
@@ -944,8 +944,8 @@
         "python"
       ],
       "license": "Apache-2.0",
-      "stars": 18867,
-      "pushed_at": "2026-10-12T19:31:54Z",
+      "stars": 18875,
+      "pushed_at": "2026-10-15T03:22:22Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -970,7 +970,7 @@
       "license_scope_check_url": "https://api.github.com/repos/confident-ai/deepeval/git/trees/0fb05d028b5ded9e4c466140ab3f3af90b801944?recursive=1",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/confident-ai/deepeval",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "ragas",
@@ -991,7 +991,7 @@
         "test-generation"
       ],
       "license": "Apache-2.0",
-      "stars": 16027,
+      "stars": 16029,
       "pushed_at": "2026-02-24T07:47:19Z",
       "archived": false,
       "fork": false,
@@ -1016,7 +1016,7 @@
       ],
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/vibrantlabsai/ragas",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "inspect-ai",
@@ -1038,7 +1038,7 @@
       ],
       "license": "MIT",
       "stars": 3005,
-      "pushed_at": "2026-10-15T00:52:45Z",
+      "pushed_at": "2026-10-15T01:13:29Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -1059,7 +1059,7 @@
       "license_scope_check_url": "https://api.github.com/repos/UKGovernmentBEIS/inspect_ai/git/trees/ba238b00c6da2b61da97577bf839370b1674e847?recursive=1",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/UKGovernmentBEIS/inspect_ai",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "garak",
@@ -1080,7 +1080,7 @@
         "python"
       ],
       "license": "Apache-2.0",
-      "stars": 9575,
+      "stars": 9574,
       "pushed_at": "2026-10-14T18:51:58Z",
       "archived": false,
       "fork": false,
@@ -1105,7 +1105,7 @@
       ],
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/NVIDIA/garak",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "invariant",
@@ -1169,8 +1169,8 @@
         "python"
       ],
       "license": "Apache-2.0",
-      "stars": 7521,
-      "pushed_at": "2026-10-09T01:35:31Z",
+      "stars": 7523,
+      "pushed_at": "2026-10-15T02:25:34Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -1191,7 +1191,7 @@
       "license_scope_check_url": "https://api.github.com/repos/guardrails-ai/guardrails/git/trees/06d0ff2c5f9bcb493d976b76f885e37e41ce845d?recursive=1",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/guardrails-ai/guardrails",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "giskard",
@@ -1212,7 +1212,7 @@
         "red-teaming"
       ],
       "license": "Apache-2.0",
-      "stars": 5902,
+      "stars": 5903,
       "pushed_at": "2026-10-12T04:26:11Z",
       "archived": false,
       "fork": false,
@@ -1234,7 +1234,7 @@
       "license_scope_check_url": "https://api.github.com/repos/Giskard-AI/giskard-oss/git/trees/48814003452c07c19339278e77a13fa07956d1b7?recursive=1",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/Giskard-AI/giskard-oss",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "nemo-guardrails",
@@ -1298,7 +1298,7 @@
         "tracing"
       ],
       "license": "Apache-2.0",
-      "stars": 1265,
+      "stars": 1266,
       "pushed_at": "2026-10-14T18:26:08Z",
       "archived": false,
       "fork": false,
@@ -1327,7 +1327,7 @@
       ],
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/Arize-ai/openinference",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "inspect-evals",
@@ -1349,7 +1349,7 @@
       ],
       "license": "MIT",
       "stars": 704,
-      "pushed_at": "2026-10-14T19:33:11Z",
+      "pushed_at": "2026-10-15T05:47:36Z",
       "archived": false,
       "fork": false,
       "default_branch": "main",
@@ -1387,7 +1387,7 @@
       "scope_evidence_url": "https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/NOTICE",
       "curator_project": false,
       "metadata_source": "https://api.github.com/repos/UKGovernmentBEIS/inspect_evals",
-      "metadata_refreshed_at": "2026-10-15T00:55:21Z"
+      "metadata_refreshed_at": "2026-10-15T05:57:45Z"
     },
     {
       "id": "mcp-session-profiler",
@@ -1459,9 +1459,12 @@
     }
   ],
   "metadata_refresh": {
-    "status": "complete",
-    "attempted_at": "2026-10-15T00:55:21Z",
-    "failed_repos": [],
+    "status": "partial",
+    "attempted_at": "2026-10-15T05:57:45Z",
+    "failed_repos": [
+      "morluto/rea",
+      "anomalyco/opencode"
+    ],
     "last_complete_at": "2026-10-15T00:55:21Z"
   }
 }

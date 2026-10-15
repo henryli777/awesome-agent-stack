@@ -8,7 +8,7 @@
 
 **收录: 34 项 · 人工证据核验日期: 2026-10-09**
 
-**GitHub 元数据刷新: 完整成功 · 2026-10-15T00:55:21Z** · 0 项保留上次成功快照。
+**GitHub 元数据刷新: 部分成功 · 2026-10-15T05:57:45Z** · 2 项保留上次成功快照。
 
 网页支持中英文、跨语言搜索、类别和许可证筛选、排序及可分享的筛选链接。默认按名称排列。
 
@@ -41,7 +41,7 @@
 - **许可范围:** [MIT](https://github.com/crewAIInc/crewAI/blob/ed71a6f4d631917d8384b4ad44f08bb09647eecd/LICENSE)
 - **核实:** [README](https://github.com/crewAIInc/crewAI/blob/ed71a6f4d631917d8384b4ad44f08bb09647eecd/README.md) · 2026-10-09 · 标签: python, multi-agent, workflows, automation
 
-- **元数据刷新:** 2026-10-15T00:51:13Z · [GitHub API](https://api.github.com/repos/crewAIInc/crewAI) · Stars: 59696 · 代码推送: 2026-10-14T20:08:49Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/crewAIInc/crewAI) · Stars: 59706 · 代码推送: 2026-10-15T05:39:23Z · 归档: false
 
 ### [Google ADK \(Python\)](https://github.com/google/adk-python)
 
@@ -51,7 +51,7 @@
 - **许可范围:** [Apache-2.0](https://github.com/google/adk-python/blob/128faabb6dddacf26e029aa8c28c903c3a7a6b61/LICENSE)
 - **核实:** [README](https://github.com/google/adk-python/blob/128faabb6dddacf26e029aa8c28c903c3a7a6b61/README.md) · 2026-10-09 · 标签: python, multi-agent, workflows, tools
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/google/adk-python) · Stars: 21852 · 代码推送: 2026-10-15T00:45:07Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/google/adk-python) · Stars: 21854 · 代码推送: 2026-10-15T05:57:25Z · 归档: false
 
 ### [LangGraph](https://github.com/langchain-ai/langgraph)
 
@@ -61,7 +61,7 @@
 - **许可范围:** [MIT](https://github.com/langchain-ai/langgraph/blob/bfcfea554ed5c7f7be562cebf8825e911b493ab1/LICENSE)
 - **核实:** [README](https://github.com/langchain-ai/langgraph/blob/bfcfea554ed5c7f7be562cebf8825e911b493ab1/README.md) · 2026-10-09 · 标签: python, workflows, state, human-in-the-loop
 
-- **元数据刷新:** 2026-10-15T00:51:13Z · [GitHub API](https://api.github.com/repos/langchain-ai/langgraph) · Stars: 43281 · 代码推送: 2026-10-15T00:24:45Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/langchain-ai/langgraph) · Stars: 43291 · 代码推送: 2026-10-15T04:32:39Z · 归档: false
 
 ### [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
 
@@ -71,7 +71,7 @@
 - **许可范围:** [MIT](https://github.com/microsoft/agent-framework/blob/2d9cc3f8ae465baf1aed3022f89b6848db4ffa7b/LICENSE)
 - **核实:** [README](https://github.com/microsoft/agent-framework/blob/2d9cc3f8ae465baf1aed3022f89b6848db4ffa7b/README.md) · 2026-10-09 · 标签: python, dotnet, multi-agent, workflows
 
-- **元数据刷新:** 2026-10-15T00:51:13Z · [GitHub API](https://api.github.com/repos/microsoft/agent-framework) · Stars: 14129 · 代码推送: 2026-10-14T23:54:41Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/microsoft/agent-framework) · Stars: 14132 · 代码推送: 2026-10-14T23:54:41Z · 归档: false
 
 ### [OpenAI Agents SDK \(Python\)](https://github.com/openai/openai-agents-python)
 
@@ -81,7 +81,7 @@
 - **许可范围:** [MIT](https://github.com/openai/openai-agents-python/blob/125efa029b4bfd84238bd2c4fd69c3406f802663/LICENSE)
 - **核实:** [README](https://github.com/openai/openai-agents-python/blob/125efa029b4bfd84238bd2c4fd69c3406f802663/README.md) · 2026-10-09 · 标签: python, multi-agent, tools, tracing
 
-- **元数据刷新:** 2026-10-15T00:51:13Z · [GitHub API](https://api.github.com/repos/openai/openai-agents-python) · Stars: 30038 · 代码推送: 2026-10-15T00:22:34Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/openai/openai-agents-python) · Stars: 30043 · 代码推送: 2026-10-15T02:22:26Z · 归档: false
 
 ### [Pydantic AI](https://github.com/pydantic/pydantic-ai)
 
@@ -91,7 +91,7 @@
 - **许可范围:** [MIT](https://github.com/pydantic/pydantic-ai/blob/36529f3a8ebc5a5675129fe6262223b9da0815ec/LICENSE)
 - **核实:** [README](https://github.com/pydantic/pydantic-ai/blob/36529f3a8ebc5a5675129fe6262223b9da0815ec/README.md) · 2026-10-09 · 标签: python, typed-output, tools, validation
 
-- **元数据刷新:** 2026-10-15T00:51:13Z · [GitHub API](https://api.github.com/repos/pydantic/pydantic-ai) · Stars: 20619 · 代码推送: 2026-10-15T00:49:02Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/pydantic/pydantic-ai) · Stars: 20622 · 代码推送: 2026-10-15T05:21:59Z · 归档: false
 
 <a id="mcp"></a>
 
@@ -105,7 +105,7 @@
 - **许可范围:** [Apache-2.0](https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/LICENSE)
 - **核实:** [README](https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/README.md) · 2026-10-09 · 标签: python, mcp, tools, apps
 
-- **元数据刷新:** 2026-10-15T00:52:19Z · [GitHub API](https://api.github.com/repos/PrefectHQ/fastmcp) · Stars: 28076 · 代码推送: 2026-10-14T21:11:40Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/PrefectHQ/fastmcp) · Stars: 28077 · 代码推送: 2026-10-14T21:11:40Z · 归档: false
 
 ### [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
 
@@ -115,7 +115,7 @@
 - **许可范围:** [Apache-2.0 / MIT](https://github.com/modelcontextprotocol/inspector/blob/0d2bc1d91ce177ea8d497ee3efe91bcc59e40a1c/LICENSE) — 代码正从 MIT 迁移至 Apache-2.0：新贡献及已获重授权同意的代码采用 Apache-2.0；未获重授权同意的历史贡献仍采用 MIT；非规范文档采用 CC-BY-4.0。
 - **核实:** [README](https://github.com/modelcontextprotocol/inspector/blob/0d2bc1d91ce177ea8d497ee3efe91bcc59e40a1c/README.md) · 2026-10-09 · 标签: typescript, mcp, debugging, cli
 
-- **元数据刷新:** 2026-10-15T00:52:19Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/inspector) · Stars: 11078 · 代码推送: 2026-10-14T04:26:29Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/inspector) · Stars: 11081 · 代码推送: 2026-10-14T04:26:29Z · 归档: false
 
 ### [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 
@@ -125,7 +125,7 @@
 - **许可范围:** [MIT](https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/LICENSE)
 - **核实:** [README](https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md) · 2026-10-09 · 标签: python, mcp, server, client
 
-- **元数据刷新:** 2026-10-15T00:52:19Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/python-sdk) · Stars: 24574 · 代码推送: 2026-10-13T10:21:52Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/python-sdk) · Stars: 24578 · 代码推送: 2026-10-13T10:21:52Z · 归档: false
 
 ### [MCP Registry](https://github.com/modelcontextprotocol/registry)
 
@@ -169,7 +169,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [Apache-2.0](https://github.com/openai/codex/blob/2351d9e1b608e6f9d9a3699b71d7eb39ee41cfa4/LICENSE)
 - **核实:** [README](https://github.com/openai/codex/blob/2351d9e1b608e6f9d9a3699b71d7eb39ee41cfa4/README.md) · 2026-10-09 · 标签: rust, coding-agent, cli, local
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/openai/codex) · Stars: 129237 · 代码推送: 2026-10-15T00:01:14Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/openai/codex) · Stars: 129277 · 代码推送: 2026-10-15T03:48:51Z · 归档: false
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
@@ -179,7 +179,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [Apache-2.0](https://github.com/google-gemini/gemini-cli/blob/2ce1a6963e9e53a04afaf76111e4527cfa7c5dd7/LICENSE)
 - **核实:** [README](https://github.com/google-gemini/gemini-cli/blob/2ce1a6963e9e53a04afaf76111e4527cfa7c5dd7/README.md) · 2026-10-09 · 标签: typescript, coding-agent, cli, mcp
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/google-gemini/gemini-cli) · Stars: 107371 · 代码推送: 2026-10-14T19:37:03Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/google-gemini/gemini-cli) · Stars: 107375 · 代码推送: 2026-10-14T19:37:03Z · 归档: false
 
 ### [OpenCode](https://github.com/anomalyco/opencode)
 
@@ -199,7 +199,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [MIT](https://github.com/OpenHands/OpenHands/blob/553d4519113192a80fb18376fdb6c1e39fa06387/LICENSE)
 - **核实:** [README](https://github.com/OpenHands/OpenHands/blob/553d4519113192a80fb18376fdb6c1e39fa06387/README.md) · 2026-10-09 · 标签: typescript, coding-agent, automation, self-hosted
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/OpenHands/OpenHands) · Stars: 90920 · 代码推送: 2026-10-15T00:31:45Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/OpenHands/OpenHands) · Stars: 90929 · 代码推送: 2026-10-15T04:00:43Z · 归档: false
 
 ### [Skills CLI](https://github.com/vercel-labs/skills)
 
@@ -209,7 +209,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [MIT](https://github.com/vercel-labs/skills/blob/e878c4502674f84094dc27b5ad94ddaf64f22551/LICENSE)
 - **核实:** [README](https://github.com/vercel-labs/skills/blob/e878c4502674f84094dc27b5ad94ddaf64f22551/README.md) · 2026-10-09 · 标签: typescript, skills, cli, tooling
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/vercel-labs/skills) · Stars: 34950 · 代码推送: 2026-10-09T17:54:47Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/vercel-labs/skills) · Stars: 34990 · 代码推送: 2026-10-09T17:54:47Z · 归档: false
 
 <a id="observability"></a>
 
@@ -223,7 +223,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [MIT](https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/LICENSE) — 根目录 LICENSE 采用 MIT；SDK 的 CrewAI 插桩另有 Apache-2.0 声明。app/LICENSE 采用 ELv2，与根目录 README 中的应用 MIT 表述冲突；此条目不收录 app/ 和托管服务。
 - **核实:** [README](https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/README.md) · 2026-10-09 · 标签: tracing, sdk, cost-tracking
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/AgentOps-AI/agentops) · Stars: 5885 · 代码推送: 2026-06-25T08:25:03Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/AgentOps-AI/agentops) · Stars: 5886 · 代码推送: 2026-06-25T08:25:03Z · 归档: false
 
 ### [Helicone](https://github.com/Helicone/helicone)
 
@@ -243,7 +243,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [MIT](https://github.com/langfuse/langfuse/blob/ab8afebee5bfaec4dc60b7a9f214ce5d2d67c074/LICENSE) — GitHub API 返回 NOASSERTION，已依据固定版本 LICENSE 手动确认。MIT 适用于 ee/、web/src/ee/、worker/src/ee/ 之外的核心；企业目录另行授权。
 - **核实:** [README](https://github.com/langfuse/langfuse/blob/ab8afebee5bfaec4dc60b7a9f214ce5d2d67c074/README.md) · 2026-10-09 · 标签: tracing, llmops, self-hosted
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/langfuse/langfuse) · Stars: 35832 · 代码推送: 2026-10-14T21:28:01Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/langfuse/langfuse) · Stars: 35838 · 代码推送: 2026-10-15T05:54:42Z · 归档: false
 
 ### [LangSmith SDKs](https://github.com/langchain-ai/langsmith-sdk)
 
@@ -253,7 +253,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [MIT](https://github.com/langchain-ai/langsmith-sdk/blob/19d9fe45dc0d156d7507d983cd23f80daa39693a/LICENSE) — 已依据所引提交中的实际授权文件确认 MIT；内置第三方组件保留各自的授权声明。
 - **核实:** [README](https://github.com/langchain-ai/langsmith-sdk/blob/19d9fe45dc0d156d7507d983cd23f80daa39693a/README.md) · 2026-10-09 · 标签: tracing, sdk, python, typescript
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/langchain-ai/langsmith-sdk) · Stars: 1079 · 代码推送: 2026-10-14T17:56:48Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/langchain-ai/langsmith-sdk) · Stars: 1079 · 代码推送: 2026-10-15T04:13:52Z · 归档: false
 
 ### [MCP Session Profiler](https://github.com/henryli777/mcp-session-profiler) · **维护者项目**
 
@@ -273,7 +273,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [Apache-2.0](https://github.com/Arize-ai/openinference/blob/12f2cc035edfb00b60b656d977f07abfb7a69900/LICENSE) — 已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。
 - **核实:** [README](https://github.com/Arize-ai/openinference/blob/12f2cc035edfb00b60b656d977f07abfb7a69900/README.md) · 2026-10-09 · 标签: opentelemetry, instrumentation, tracing
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/Arize-ai/openinference) · Stars: 1265 · 代码推送: 2026-10-14T18:26:08Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/Arize-ai/openinference) · Stars: 1266 · 代码推送: 2026-10-14T18:26:08Z · 归档: false
 
 <a id="evaluation"></a>
 
@@ -287,7 +287,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [Apache-2.0](https://github.com/confident-ai/deepeval/blob/0fb05d028b5ded9e4c466140ab3f3af90b801944/LICENSE.md) — 已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。
 - **核实:** [README](https://github.com/confident-ai/deepeval/blob/0fb05d028b5ded9e4c466140ab3f3af90b801944/README.md) · 2026-10-09 · 标签: evals, metrics, python
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/confident-ai/deepeval) · Stars: 18867 · 代码推送: 2026-10-12T19:31:54Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/confident-ai/deepeval) · Stars: 18875 · 代码推送: 2026-10-15T03:22:22Z · 归档: false
 
 ### [Giskard](https://github.com/Giskard-AI/giskard-oss)
 
@@ -297,7 +297,7 @@ OpenAI 开源的本地终端编程智能体。
 - **许可范围:** [Apache-2.0](https://github.com/Giskard-AI/giskard-oss/blob/48814003452c07c19339278e77a13fa07956d1b7/LICENSE) — 已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。
 - **核实:** [README](https://github.com/Giskard-AI/giskard-oss/blob/48814003452c07c19339278e77a13fa07956d1b7/README.md) · 2026-10-09 · 标签: evals, agents, red-teaming
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/Giskard-AI/giskard-oss) · Stars: 5902 · 代码推送: 2026-10-12T04:26:11Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/Giskard-AI/giskard-oss) · Stars: 5903 · 代码推送: 2026-10-12T04:26:11Z · 归档: false
 
 ### [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)
 
@@ -307,7 +307,7 @@ MIT 评测框架，支持数据集、工具调用、多轮执行器、评分和�
 - **许可范围:** [MIT](https://github.com/UKGovernmentBEIS/inspect_ai/blob/ba238b00c6da2b61da97577bf839370b1674e847/LICENSE) — 已依据所引提交中的实际授权文件确认 MIT；内置第三方组件保留各自的授权声明。
 - **核实:** [README](https://github.com/UKGovernmentBEIS/inspect_ai/blob/ba238b00c6da2b61da97577bf839370b1674e847/README.md) · 2026-10-09 · 标签: evals, python, tool-use
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/UKGovernmentBEIS/inspect_ai) · Stars: 3005 · 代码推送: 2026-10-15T00:52:45Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/UKGovernmentBEIS/inspect_ai) · Stars: 3005 · 代码推送: 2026-10-15T01:13:29Z · 归档: false
 
 ### [Inspect Evals \(MIT modules\)](https://github.com/UKGovernmentBEIS/inspect_evals)
 
@@ -317,7 +317,7 @@ MIT 评测框架，支持数据集、工具调用、多轮执行器、评分和�
 - **许可范围:** [MIT](https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/LICENSE) — 根目录 LICENSE 与 agentic\_misalignment/LICENSE 采用 MIT。AgentHarm 的 LICENSE 增加非 OSI 的用途限制；NOTICE 对部分 CyberSecEval 组件列出 Llama 3.2 条款。此条目不将完整仓库或 AgentHarm 统一标为 MIT。
 - **核实:** [README](https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/README.md) · 2026-10-09 · 标签: benchmarks, evals, python
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/UKGovernmentBEIS/inspect_evals) · Stars: 704 · 代码推送: 2026-10-14T19:33:11Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/UKGovernmentBEIS/inspect_evals) · Stars: 704 · 代码推送: 2026-10-15T05:47:36Z · 归档: false
 
 ### [Promptfoo](https://github.com/promptfoo/promptfoo)
 
@@ -327,7 +327,7 @@ MIT CLI 与库，支持提示词和 Agent 评测、模型比较及可配置的�
 - **许可范围:** [MIT](https://github.com/promptfoo/promptfoo/blob/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695/LICENSE) — 已根据固定版本根目录 LICENSE 与 Crescendo 提供程序的独立 MIT 声明确认 MIT。此条目收录社区 CLI 与库；Enterprise SaaS 和本地部署产品另行提供。
 - **核实:** [README](https://github.com/promptfoo/promptfoo/blob/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695/README.md) · 2026-10-09 · 标签: evals, red-teaming, ci
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/promptfoo/promptfoo) · Stars: 25999 · 代码推送: 2026-10-15T00:14:30Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/promptfoo/promptfoo) · Stars: 26001 · 代码推送: 2026-10-15T00:14:30Z · 归档: false
 
 ### [Ragas](https://github.com/vibrantlabsai/ragas)
 
@@ -337,7 +337,7 @@ MIT CLI 与库，支持提示词和 Agent 评测、模型比较及可配置的�
 - **许可范围:** [Apache-2.0](https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/LICENSE) — 已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。
 - **核实:** [README](https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/README.md) · 2026-10-09 · 标签: rag, metrics, test-generation
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/vibrantlabsai/ragas) · Stars: 16027 · 代码推送: 2026-02-24T07:47:19Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/vibrantlabsai/ragas) · Stars: 16029 · 代码推送: 2026-02-24T07:47:19Z · 归档: false
 
 <a id="security"></a>
 
@@ -351,7 +351,7 @@ MIT CLI 与库，支持提示词和 Agent 评测、模型比较及可配置的�
 - **许可范围:** [Apache-2.0](https://github.com/NVIDIA/garak/blob/6cea0c92ac8c8dfae0165a3ec47ed4e228299354/LICENSE) — 扫描器源码已确认为 Apache-2.0；内置 HarmBench 数据另有 MIT 授权声明。
 - **核实:** [README](https://github.com/NVIDIA/garak/blob/6cea0c92ac8c8dfae0165a3ec47ed4e228299354/README.md) · 2026-10-09 · 标签: red-teaming, scanner, python
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/NVIDIA/garak) · Stars: 9575 · 代码推送: 2026-10-14T18:51:58Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/NVIDIA/garak) · Stars: 9574 · 代码推送: 2026-10-14T18:51:58Z · 归档: false
 
 ### [Guardrails AI](https://github.com/guardrails-ai/guardrails)
 
@@ -361,7 +361,7 @@ MIT CLI 与库，支持提示词和 Agent 评测、模型比较及可配置的�
 - **许可范围:** [Apache-2.0](https://github.com/guardrails-ai/guardrails/blob/06d0ff2c5f9bcb493d976b76f885e37e41ce845d/LICENSE) — 已依据所引提交中的实际授权文件确认 Apache-2.0；内置第三方组件保留各自的授权声明。
 - **核实:** [README](https://github.com/guardrails-ai/guardrails/blob/06d0ff2c5f9bcb493d976b76f885e37e41ce845d/README.md) · 2026-10-09 · 标签: guardrails, validation, python
 
-- **元数据刷新:** 2026-10-15T00:55:21Z · [GitHub API](https://api.github.com/repos/guardrails-ai/guardrails) · Stars: 7521 · 代码推送: 2026-10-09T01:35:31Z · 归档: false
+- **元数据刷新:** 2026-10-15T05:57:45Z · [GitHub API](https://api.github.com/repos/guardrails-ai/guardrails) · Stars: 7523 · 代码推送: 2026-10-15T02:25:34Z · 归档: false
 
 ### [Invariant Guardrails](https://github.com/invariantlabs-ai/invariant)
 
