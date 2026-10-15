@@ -4,7 +4,7 @@ import unittest
 
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-SUPPORT_URL = "https://support.coinexo.top/?project=awesome-agent-stack"
+SUPPORT_URL = "https://support.coinexo.top/"
 
 
 class ChromeParser(HTMLParser):

@@ -79,3 +79,60 @@ export function safeHttpsUrl(value) {
     return null;
   }
 }
+
+export function createCatalogRefresh({ fetchImpl = globalThis.fetch, onCatalog, onFailure, timeoutMs = 15000 }) {
+  let pending = null;
+  let fingerprint = null;
+  return function refresh() {
+    if (pending) return pending;
+    pending = (async () => {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        const response = await fetchImpl('./catalog.json', { cache: 'no-cache', signal: controller.signal });
+        if (!response.ok) throw new Error('Catalogue unavailable');
+        const value = await response.json();
+        if (value?.schema_version !== 1 || !Array.isArray(value.projects) || !value.projects.length ||
+          !Array.isArray(value.categories) || !value.categories.length ||
+          value.categories.some(category => !category || typeof category.id !== 'string') ||
+          value.projects.some(project => !project || typeof project.name !== 'string' || typeof project.repo !== 'string' ||
+            typeof project.category !== 'string' || typeof project.license !== 'string')) {
+          throw new Error('Invalid catalogue');
+        }
+        const next = JSON.stringify(value);
+        if (next !== fingerprint) {
+          onCatalog(value);
+          fingerprint = next;
+        }
+        return true;
+      } catch {
+        onFailure();
+        return false;
+      } finally {
+        clearTimeout(timer);
+      }
+    })().finally(() => { pending = null; });
+    return pending;
+  };
+}
+
+export function startForegroundRefresh({ refresh, document = globalThis.document,
+  window = globalThis.window, setIntervalImpl = globalThis.setInterval }) {
+  const foreground = () => { if (document.visibilityState === 'visible') refresh(); };
+  document.addEventListener('visibilitychange', foreground);
+  window.addEventListener('focus', foreground);
+  setIntervalImpl(foreground, 60000);
+}
+
+export function metadataSummary(data, lang) {
+  const zh = lang === 'zh';
+  const report = data?.metadata_refresh;
+  if (!report) return zh ? 'GitHub 元数据尚未自动刷新；当前为人工核验时的快照。' : 'GitHub metadata has not yet been refreshed automatically; values are the original checked snapshot.';
+  const format = value => typeof value === 'string' ? value.replace('T', ' ').replace('Z', ' UTC') : (zh ? '尚无' : 'none yet');
+  const count = report.failed_repos?.length || 0;
+  if (report.status === 'complete') return zh
+    ? `GitHub 官方元数据已刷新：${format(report.last_complete_at)}。README 与许可的人工核验日期独立记录。`
+    : `Official GitHub metadata refreshed: ${format(report.last_complete_at)}. Human checks of README and license evidence have separate dates.`;
+  return zh ? `GitHub 元数据${report.status === 'partial' ? '部分刷新' : '刷新失败'}：${format(report.attempted_at)}；${count} 个项目保留上次成功快照。最近完整刷新：${format(report.last_complete_at)}。`
+    : `GitHub metadata refresh ${report.status === 'partial' ? 'partial' : 'failed'}: ${format(report.attempted_at)}; last successful values preserved for ${count} projects. Last complete refresh: ${format(report.last_complete_at)}.`;
+}

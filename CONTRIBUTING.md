@@ -40,6 +40,7 @@ to include it. / 欢迎推荐工具、纠正文案或更新快照；请说明它
    | `evidence_url` | Official commit-pinned README |
    | `source_evidence_url` | Optional official commit-pinned implementation file |
    | `stars`, `pushed_at`, `checked_at` | Integer stars, UTC last-push timestamp, verification date `YYYY-MM-DD` |
+   | `metadata_refreshed_at`, `metadata_source` | Optional successful metadata observation time (UTC) and exact official `https://api.github.com/repos/OWNER/REPO` provenance |
    | `archived`, `curator_project` | Explicit booleans |
    | `website` | Optional official HTTPS documentation/product URL |
 
@@ -65,6 +66,43 @@ to include it. / 欢迎推荐工具、纠正文案或更新快照；请说明它
 Stars and timestamps are recorded snapshots. Refreshing metadata does not
 establish runtime compatibility or security; describe any runtime checks
 separately with the exact environment and result. / 更新元数据不等于验证运行效果。
+
+## Daily metadata refresh / 每日元数据刷新
+
+The Pages workflow runs daily at 01:23 UTC (09:23 Asia/Shanghai), and can be run
+manually on `main`. GitHub schedules may start late. It reads only the listed
+public repositories from the official REST API, then refreshes stars, push time,
+archive and fork status. It never changes descriptions, license scope, evidence
+links, `checked_at` or the human-curation `updated_at`. Archived entries remain
+visible with a status label. API license detection is not a license review.
+
+Run `python3 scripts/refresh_metadata.py` before generation to perform the same
+refresh locally. Optional `GITHUB_TOKEN` is read from the environment and never
+printed or stored; the workflow uses its built-in token. The client makes at
+most one request per listed repository (100 repositories maximum), waits one
+second between requests, times out requests, and stops on rate or network
+failure. It refuses redirects and non-public/mismatched repository responses.
+Keep TLS certificate verification enabled. Some macOS Python installations
+need their certificate bundle configured before local API calls work.
+
+`metadata_refresh` records the observed `complete`, `partial` or `failed` result,
+the attempt time, failed repository names and the most recent complete refresh
+when available. Failed entries retain their last successful fields and dates.
+Identical observations on the same UTC day do not create timestamp-only churn;
+the next day's successful observation advances freshness. Generated README and
+site data carry the same provenance and dates.
+
+The scheduled run validates before committing with the GitHub Actions bot and
+publishes its exact verified artifact. The built-in token prevents recursive
+push-triggered runs. SHA checks and a normal non-force push reject concurrent
+`main` updates; deployment checks again after environment approval. The workflow
+needs repository contents write permission for its trusted refresh job, Pages
+deployment enabled, and branch rules that allow the bot's update. It does not
+bypass branch protections. PR verification keeps read-only contents access.
+
+Public pages check their own published JSON every 60 seconds while visible and
+on foreground return. They preserve the current language, filters, focus and
+loaded data when refresh fails; browsers never call upstream GitHub APIs.
 
 ## Website changes / 页面修改
 

@@ -5,6 +5,8 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+  schedule:
+    - cron: '23 1 * * *'
 
 permissions:
   contents: read
@@ -14,10 +16,60 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  verify:
+  refresh:
+    if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    outputs:
+      sha: ${{ steps.snapshot.outputs.sha }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refresh official public repository metadata
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/refresh_metadata.py
+      - name: Generate and verify the refreshed catalog
+        run: |
+          python3 scripts/catalog.py
+          python3 -m unittest discover -s tests -p 'test_*.py' -v
+          python3 scripts/catalog.py --check
+          node --test tests/*.test.mjs
+          node --check site/app.js
+      - name: Save metadata without overwriting concurrent main changes
+        id: snapshot
+        run: |
+          python3 scripts/publish_snapshot.py --expected-sha "$(git rev-parse HEAD)"
+          git add data/catalog.json site/catalog.json README.md README.zh-CN.md
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore: refresh official GitHub metadata'
+            git push origin HEAD:main
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          # GITHUB_TOKEN pushes do not trigger another workflow; this run publishes its verified snapshot.
+
+  verify:
+    needs: refresh
+    if: always() && (needs.refresh.result == 'success' || needs.refresh.result == 'skipped') && !cancelled()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      sha: ${{ steps.snapshot.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.refresh.outputs.sha || github.sha }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
@@ -32,9 +84,19 @@ jobs:
         run: node --test tests/*.test.mjs
       - name: Check browser script syntax
         run: node --check site/app.js
+      - name: Verify the publication snapshot
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        id: snapshot
+        run: |
+          python3 scripts/publish_snapshot.py --expected-sha "$(git rev-parse HEAD)"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        with:
+          path: site
 
   publish:
-    if: github.event_name != 'pull_request'
+    if: always() && needs.verify.result == 'success' && !cancelled() && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: verify
     runs-on: ubuntu-latest
     permissions:
@@ -46,10 +108,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          ref: ${{ needs.verify.outputs.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Reject a superseded deployment after environment approval
+        env:
+          EXPECTED_SHA: ${{ needs.verify.outputs.sha }}
+        run: python3 scripts/publish_snapshot.py --expected-sha "$EXPECTED_SHA"
+      - uses: actions/configure-pages@v5
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
