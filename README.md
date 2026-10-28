@@ -8,7 +8,7 @@ A curated collection of open-source tools to build, connect, code, observe, eval
 
 **Catalog: 34 projects · Human evidence snapshot: 2026-10-09**
 
-**GitHub metadata refresh: complete · 2026-10-27T06:24:39Z** · Last successful snapshots preserved for 0 projects.
+**GitHub metadata refresh: complete · 2026-10-28T06:54:54Z** · Last successful snapshots preserved for 0 projects.
 
 The website supports bilingual copy, cross-language search, category/license filters, sorting and shareable filter URLs. Default order is alphabetical.
 
@@ -41,7 +41,7 @@ A Python framework that combines role-based agent teams with event-driven workfl
 - **License scope:** [MIT](https://github.com/crewAIInc/crewAI/blob/ed71a6f4d631917d8384b4ad44f08bb09647eecd/LICENSE)
 - **Evidence:** [README](https://github.com/crewAIInc/crewAI/blob/ed71a6f4d631917d8384b4ad44f08bb09647eecd/README.md) · 2026-10-09 · Tags: python, multi-agent, workflows, automation
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/crewAIInc/crewAI) · Stars: 60149 · Code push: 2026-10-27T05:41:25Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/crewAIInc/crewAI) · Stars: 60193 · Code push: 2026-10-28T06:51:27Z · Archived: false
 
 ### [Google ADK \(Python\)](https://github.com/google/adk-python)
 
@@ -51,7 +51,7 @@ A Python toolkit for composing agents, tool integrations, and graph-based workfl
 - **License scope:** [Apache-2.0](https://github.com/google/adk-python/blob/128faabb6dddacf26e029aa8c28c903c3a7a6b61/LICENSE)
 - **Evidence:** [README](https://github.com/google/adk-python/blob/128faabb6dddacf26e029aa8c28c903c3a7a6b61/README.md) · 2026-10-09 · Tags: python, multi-agent, workflows, tools
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/google/adk-python) · Stars: 22021 · Code push: 2026-10-27T05:57:46Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/google/adk-python) · Stars: 22027 · Code push: 2026-10-28T06:25:02Z · Archived: false
 
 ### [LangGraph](https://github.com/langchain-ai/langgraph)
 
@@ -61,7 +61,7 @@ A graph-based orchestration library for stateful agents with durable execution a
 - **License scope:** [MIT](https://github.com/langchain-ai/langgraph/blob/bfcfea554ed5c7f7be562cebf8825e911b493ab1/LICENSE)
 - **Evidence:** [README](https://github.com/langchain-ai/langgraph/blob/bfcfea554ed5c7f7be562cebf8825e911b493ab1/README.md) · 2026-10-09 · Tags: python, workflows, state, human-in-the-loop
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/langchain-ai/langgraph) · Stars: 43962 · Code push: 2026-10-27T02:47:39Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/langchain-ai/langgraph) · Stars: 44026 · Code push: 2026-10-28T01:22:08Z · Archived: false
 
 ### [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
 
@@ -71,7 +71,7 @@ A Python and .NET framework for agents and graph workflows with checkpointing, m
 - **License scope:** [MIT](https://github.com/microsoft/agent-framework/blob/2d9cc3f8ae465baf1aed3022f89b6848db4ffa7b/LICENSE)
 - **Evidence:** [README](https://github.com/microsoft/agent-framework/blob/2d9cc3f8ae465baf1aed3022f89b6848db4ffa7b/README.md) · 2026-10-09 · Tags: python, dotnet, multi-agent, workflows
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/microsoft/agent-framework) · Stars: 14336 · Code push: 2026-10-27T02:45:14Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/microsoft/agent-framework) · Stars: 14348 · Code push: 2026-10-28T06:35:06Z · Archived: false
 
 ### [OpenAI Agents SDK \(Python\)](https://github.com/openai/openai-agents-python)
 
@@ -81,7 +81,7 @@ A Python SDK that composes tool-using agents with handoffs, guardrails, sessions
 - **License scope:** [MIT](https://github.com/openai/openai-agents-python/blob/125efa029b4bfd84238bd2c4fd69c3406f802663/LICENSE)
 - **Evidence:** [README](https://github.com/openai/openai-agents-python/blob/125efa029b4bfd84238bd2c4fd69c3406f802663/README.md) · 2026-10-09 · Tags: python, multi-agent, tools, tracing
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/openai/openai-agents-python) · Stars: 30318 · Code push: 2026-10-27T05:46:03Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/openai/openai-agents-python) · Stars: 30347 · Code push: 2026-10-27T19:44:03Z · Archived: false
 
 ### [Pydantic AI](https://github.com/pydantic/pydantic-ai)
 
@@ -91,7 +91,7 @@ A typed Python agent SDK with validated outputs, model integrations, and extensi
 - **License scope:** [MIT](https://github.com/pydantic/pydantic-ai/blob/36529f3a8ebc5a5675129fe6262223b9da0815ec/LICENSE)
 - **Evidence:** [README](https://github.com/pydantic/pydantic-ai/blob/36529f3a8ebc5a5675129fe6262223b9da0815ec/README.md) · 2026-10-09 · Tags: python, typed-output, tools, validation
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/pydantic/pydantic-ai) · Stars: 20897 · Code push: 2026-10-27T06:17:05Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/pydantic/pydantic-ai) · Stars: 20918 · Code push: 2026-10-28T06:10:51Z · Archived: false
 
 <a id="mcp"></a>
 
@@ -105,7 +105,7 @@ A Python framework for MCP servers, clients, and interactive tool applications.
 - **License scope:** [Apache-2.0](https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/LICENSE)
 - **Evidence:** [README](https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/README.md) · 2026-10-09 · Tags: python, mcp, tools, apps
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/PrefectHQ/fastmcp) · Stars: 28215 · Code push: 2026-10-27T06:16:34Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/PrefectHQ/fastmcp) · Stars: 28221 · Code push: 2026-10-28T06:48:08Z · Archived: false
 
 ### [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
 
@@ -115,7 +115,7 @@ A developer utility for inspecting MCP servers through web, command-line, and te
 - **License scope:** [Apache-2.0 / MIT](https://github.com/modelcontextprotocol/inspector/blob/0d2bc1d91ce177ea8d497ee3efe91bcc59e40a1c/LICENSE) — Code is transitioning from MIT to Apache-2.0: new and relicensed contributions use Apache-2.0, while historical contributions without relicensing consent remain MIT; non-specification documentation uses CC-BY-4.0.
 - **Evidence:** [README](https://github.com/modelcontextprotocol/inspector/blob/0d2bc1d91ce177ea8d497ee3efe91bcc59e40a1c/README.md) · 2026-10-09 · Tags: typescript, mcp, debugging, cli
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/inspector) · Stars: 11160 · Code push: 2026-10-25T05:56:31Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/inspector) · Stars: 11173 · Code push: 2026-10-25T05:56:31Z · Archived: false
 
 ### [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 
@@ -125,7 +125,7 @@ The official Python SDK for MCP servers and clients that exchange tools, resourc
 - **License scope:** [MIT](https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/LICENSE)
 - **Evidence:** [README](https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md) · 2026-10-09 · Tags: python, mcp, server, client
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/python-sdk) · Stars: 24679 · Code push: 2026-10-25T13:05:36Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/python-sdk) · Stars: 24691 · Code push: 2026-10-27T11:15:12Z · Archived: false
 
 ### [MCP Registry](https://github.com/modelcontextprotocol/registry)
 
@@ -135,7 +135,7 @@ A Go registry service and publishing CLI for discovering and registering MCP ser
 - **License scope:** [Apache-2.0 / MIT](https://github.com/modelcontextprotocol/registry/blob/970df037919faa70456dde08c295473002d850e5/LICENSE) — Code is transitioning from MIT to Apache-2.0: new and relicensed contributions use Apache-2.0, while historical contributions without relicensing consent remain MIT; non-specification documentation uses CC-BY-4.0.
 - **Evidence:** [README](https://github.com/modelcontextprotocol/registry/blob/970df037919faa70456dde08c295473002d850e5/README.md) · 2026-10-09 · Tags: go, mcp, registry, discovery
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/registry) · Stars: 7410 · Code push: 2026-10-26T18:15:01Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/registry) · Stars: 7412 · Code push: 2026-10-28T03:00:52Z · Archived: false
 
 ### [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
 
@@ -145,7 +145,7 @@ The official TypeScript MCP SDK provides server, client, and web-framework trans
 - **License scope:** [Apache-2.0 / MIT](https://github.com/modelcontextprotocol/typescript-sdk/blob/b022522089a0c8b632595c6e7b536453945ed5a9/LICENSE) — Code is transitioning from MIT to Apache-2.0: new and relicensed contributions use Apache-2.0, while historical contributions without relicensing consent remain MIT; non-specification documentation uses CC-BY-4.0.
 - **Evidence:** [README](https://github.com/modelcontextprotocol/typescript-sdk/blob/b022522089a0c8b632595c6e7b536453945ed5a9/README.md) · 2026-10-09 · Tags: typescript, mcp, server, client
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/typescript-sdk) · Stars: 13660 · Code push: 2026-10-27T01:24:30Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/modelcontextprotocol/typescript-sdk) · Stars: 13665 · Code push: 2026-10-27T23:29:29Z · Archived: false
 
 ### [REA](https://github.com/morluto/rea)
 
@@ -155,7 +155,7 @@ An MCP server and CLI that connect agents to local binary, JavaScript, and appli
 - **License scope:** [MIT](https://github.com/morluto/rea/blob/e6905c18e09c41e04525fb1a84575483df789204/LICENSE)
 - **Evidence:** [README](https://github.com/morluto/rea/blob/e6905c18e09c41e04525fb1a84575483df789204/README.md) · 2026-10-09 · Tags: typescript, mcp, reverse-engineering, cli
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/morluto/rea) · Stars: 393103 · Code push: 2026-10-27T06:24:30Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/morluto/rea) · Stars: 398719 · Code push: 2026-10-28T06:50:00Z · Archived: false
 
 <a id="coding"></a>
 
@@ -169,7 +169,7 @@ OpenAI's open-source coding agent that runs locally from the terminal.
 - **License scope:** [Apache-2.0](https://github.com/openai/codex/blob/2351d9e1b608e6f9d9a3699b71d7eb39ee41cfa4/LICENSE)
 - **Evidence:** [README](https://github.com/openai/codex/blob/2351d9e1b608e6f9d9a3699b71d7eb39ee41cfa4/README.md) · 2026-10-09 · Tags: rust, coding-agent, cli, local
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/openai/codex) · Stars: 131074 · Code push: 2026-10-27T05:52:19Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/openai/codex) · Stars: 131342 · Code push: 2026-10-28T06:24:45Z · Archived: false
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
@@ -179,7 +179,7 @@ A terminal agent for Gemini with file operations, shell tools, search, and MCP i
 - **License scope:** [Apache-2.0](https://github.com/google-gemini/gemini-cli/blob/2ce1a6963e9e53a04afaf76111e4527cfa7c5dd7/LICENSE)
 - **Evidence:** [README](https://github.com/google-gemini/gemini-cli/blob/2ce1a6963e9e53a04afaf76111e4527cfa7c5dd7/README.md) · 2026-10-09 · Tags: typescript, coding-agent, cli, mcp
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/google-gemini/gemini-cli) · Stars: 108560 · Code push: 2026-10-27T01:15:46Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/google-gemini/gemini-cli) · Stars: 108589 · Code push: 2026-10-28T02:26:41Z · Archived: false
 
 ### [OpenCode](https://github.com/anomalyco/opencode)
 
@@ -189,7 +189,7 @@ An open-source coding agent with separate build and planning modes plus subagent
 - **License scope:** [MIT](https://github.com/anomalyco/opencode/blob/388406238bd5ca15564a762840a2362c3a45bd9c/LICENSE)
 - **Evidence:** [README](https://github.com/anomalyco/opencode/blob/388406238bd5ca15564a762840a2362c3a45bd9c/README.md) · 2026-10-09 · Tags: typescript, coding-agent, cli, multi-agent
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/anomalyco/opencode) · Stars: 222068 · Code push: 2026-10-27T05:44:52Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/anomalyco/opencode) · Stars: 222490 · Code push: 2026-10-28T06:24:33Z · Archived: false
 
 ### [OpenHands Agent Canvas](https://github.com/OpenHands/OpenHands)
 
@@ -199,7 +199,7 @@ A self-hosted control center for coding agents and automations across local, rem
 - **License scope:** [MIT](https://github.com/OpenHands/OpenHands/blob/553d4519113192a80fb18376fdb6c1e39fa06387/LICENSE)
 - **Evidence:** [README](https://github.com/OpenHands/OpenHands/blob/553d4519113192a80fb18376fdb6c1e39fa06387/README.md) · 2026-10-09 · Tags: typescript, coding-agent, automation, self-hosted
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/OpenHands/OpenHands) · Stars: 91957 · Code push: 2026-10-27T01:30:23Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/OpenHands/OpenHands) · Stars: 92053 · Code push: 2026-10-28T05:49:19Z · Archived: false
 
 ### [Skills CLI](https://github.com/vercel-labs/skills)
 
@@ -209,7 +209,7 @@ A CLI for finding, installing, updating, and using agent skills across supported
 - **License scope:** [MIT](https://github.com/vercel-labs/skills/blob/e878c4502674f84094dc27b5ad94ddaf64f22551/LICENSE)
 - **Evidence:** [README](https://github.com/vercel-labs/skills/blob/e878c4502674f84094dc27b5ad94ddaf64f22551/README.md) · 2026-10-09 · Tags: typescript, skills, cli, tooling
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/vercel-labs/skills) · Stars: 36745 · Code push: 2026-10-27T02:03:06Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/vercel-labs/skills) · Stars: 36909 · Code push: 2026-10-28T04:18:52Z · Archived: false
 
 <a id="observability"></a>
 
@@ -223,7 +223,7 @@ MIT Python SDK for agent traces, session events, and LLM cost tracking; the sepa
 - **License scope:** [MIT](https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/LICENSE) — The root LICENSE is MIT. The SDK's CrewAI instrumentation has an Apache-2.0 notice. app/LICENSE is ELv2, despite the root README's conflicting MIT app statement; this entry excludes app/ and the hosted service.
 - **Evidence:** [README](https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/README.md) · 2026-10-09 · Tags: tracing, sdk, cost-tracking
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/AgentOps-AI/agentops) · Stars: 5921 · Code push: 2026-06-25T08:25:03Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/AgentOps-AI/agentops) · Stars: 5923 · Code push: 2026-06-25T08:25:03Z · Archived: false
 
 ### [Helicone](https://github.com/Helicone/helicone)
 
@@ -233,7 +233,7 @@ Apache-2.0 gateway and observability source for LLM request logging, agent trace
 - **License scope:** [Apache-2.0](https://github.com/Helicone/helicone/blob/067d9290acb4f1fc9320e902fc67b4b399b50363/LICENSE) — Apache-2.0 confirmed in the pinned root LICENSE. The complete pinned tree contains no additional license file for enterprise directories. Hosted plans and commercial Helm access are separate offerings described in the README.
 - **Evidence:** [README](https://github.com/Helicone/helicone/blob/067d9290acb4f1fc9320e902fc67b4b399b50363/README.md) · 2026-10-09 · Tags: gateway, tracing, self-hosted
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/Helicone/helicone) · Stars: 6240 · Code push: 2026-10-24T01:17:24Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/Helicone/helicone) · Stars: 6242 · Code push: 2026-10-24T01:17:24Z · Archived: false
 
 ### [Langfuse](https://github.com/langfuse/langfuse)
 
@@ -243,7 +243,7 @@ Self-hostable MIT core for LLM traces, prompt versioning, datasets, and evaluati
 - **License scope:** [MIT](https://github.com/langfuse/langfuse/blob/ab8afebee5bfaec4dc60b7a9f214ce5d2d67c074/LICENSE) — Manually confirmed from the pinned LICENSE because GitHub API reports NOASSERTION. MIT applies to the core outside ee/, web/src/ee/, and worker/src/ee/; enterprise directories use a separate license.
 - **Evidence:** [README](https://github.com/langfuse/langfuse/blob/ab8afebee5bfaec4dc60b7a9f214ce5d2d67c074/README.md) · 2026-10-09 · Tags: tracing, llmops, self-hosted
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/langfuse/langfuse) · Stars: 36562 · Code push: 2026-10-27T06:08:12Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/langfuse/langfuse) · Stars: 36627 · Code push: 2026-10-28T06:54:28Z · Archived: false
 
 ### [LangSmith SDKs](https://github.com/langchain-ai/langsmith-sdk)
 
@@ -253,7 +253,7 @@ MIT Python and JavaScript clients for tracing and evaluating apps with LangSmith
 - **License scope:** [MIT](https://github.com/langchain-ai/langsmith-sdk/blob/19d9fe45dc0d156d7507d983cd23f80daa39693a/LICENSE) — MIT was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.
 - **Evidence:** [README](https://github.com/langchain-ai/langsmith-sdk/blob/19d9fe45dc0d156d7507d983cd23f80daa39693a/README.md) · 2026-10-09 · Tags: tracing, sdk, python, typescript
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/langchain-ai/langsmith-sdk) · Stars: 1081 · Code push: 2026-10-16T17:24:02Z · Archived: true
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/langchain-ai/langsmith-sdk) · Stars: 1080 · Code push: 2026-10-16T17:24:02Z · Archived: true
 
 ### [MCP Session Profiler](https://github.com/henryli777/mcp-session-profiler) · **Curator project**
 
@@ -263,7 +263,7 @@ A local stdio proxy that records bounded MCP call metadata and generates offline
 - **License scope:** [MIT](https://github.com/henryli777/mcp-session-profiler/blob/426cfd965161e4dd955f8e7c69de3a85302732eb/LICENSE)
 - **Evidence:** [README](https://github.com/henryli777/mcp-session-profiler/blob/426cfd965161e4dd955f8e7c69de3a85302732eb/README.md) · 2026-10-09 · Tags: mcp, python, stdio, diagnostics
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/henryli777/mcp-session-profiler) · Stars: 0 · Code push: 2026-10-09T07:33:39Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/henryli777/mcp-session-profiler) · Stars: 0 · Code push: 2026-10-09T07:33:39Z · Archived: false
 
 ### [OpenInference](https://github.com/Arize-ai/openinference)
 
@@ -273,7 +273,7 @@ Apache-2.0 OpenTelemetry conventions and instrumentation libraries for model, re
 - **License scope:** [Apache-2.0](https://github.com/Arize-ai/openinference/blob/12f2cc035edfb00b60b656d977f07abfb7a69900/LICENSE) — Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.
 - **Evidence:** [README](https://github.com/Arize-ai/openinference/blob/12f2cc035edfb00b60b656d977f07abfb7a69900/README.md) · 2026-10-09 · Tags: opentelemetry, instrumentation, tracing
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/Arize-ai/openinference) · Stars: 1289 · Code push: 2026-10-26T22:32:51Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/Arize-ai/openinference) · Stars: 1292 · Code push: 2026-10-28T00:33:32Z · Archived: false
 
 <a id="evaluation"></a>
 
@@ -287,7 +287,7 @@ Python framework for LLM app tests with task, tool-use, retrieval, and LLM-judge
 - **License scope:** [Apache-2.0](https://github.com/confident-ai/deepeval/blob/0fb05d028b5ded9e4c466140ab3f3af90b801944/LICENSE.md) — Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.
 - **Evidence:** [README](https://github.com/confident-ai/deepeval/blob/0fb05d028b5ded9e4c466140ab3f3af90b801944/README.md) · 2026-10-09 · Tags: evals, metrics, python
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/confident-ai/deepeval) · Stars: 19129 · Code push: 2026-10-23T11:41:01Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/confident-ai/deepeval) · Stars: 19155 · Code push: 2026-10-27T16:30:35Z · Archived: false
 
 ### [Giskard](https://github.com/Giskard-AI/giskard-oss)
 
@@ -297,7 +297,7 @@ Modular Python testing library for agent scenarios, LLM-judge checks, RAG qualit
 - **License scope:** [Apache-2.0](https://github.com/Giskard-AI/giskard-oss/blob/48814003452c07c19339278e77a13fa07956d1b7/LICENSE) — Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.
 - **Evidence:** [README](https://github.com/Giskard-AI/giskard-oss/blob/48814003452c07c19339278e77a13fa07956d1b7/README.md) · 2026-10-09 · Tags: evals, agents, red-teaming
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/Giskard-AI/giskard-oss) · Stars: 5927 · Code push: 2026-10-27T04:33:39Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/Giskard-AI/giskard-oss) · Stars: 5931 · Code push: 2026-10-28T04:41:09Z · Archived: false
 
 ### [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)
 
@@ -307,7 +307,7 @@ MIT evaluation framework with datasets, tool use, multi-turn solvers, scoring, a
 - **License scope:** [MIT](https://github.com/UKGovernmentBEIS/inspect_ai/blob/ba238b00c6da2b61da97577bf839370b1674e847/LICENSE) — MIT was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.
 - **Evidence:** [README](https://github.com/UKGovernmentBEIS/inspect_ai/blob/ba238b00c6da2b61da97577bf839370b1674e847/README.md) · 2026-10-09 · Tags: evals, python, tool-use
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/UKGovernmentBEIS/inspect_ai) · Stars: 3106 · Code push: 2026-10-27T05:27:24Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/UKGovernmentBEIS/inspect_ai) · Stars: 3115 · Code push: 2026-10-28T06:17:09Z · Archived: false
 
 ### [Inspect Evals \(MIT modules\)](https://github.com/UKGovernmentBEIS/inspect_evals)
 
@@ -317,7 +317,7 @@ Inspect AI benchmark implementations, including MIT agentic-misalignment tests; 
 - **License scope:** [MIT](https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/LICENSE) — The root LICENSE and agentic\_misalignment/LICENSE are MIT. AgentHarm's LICENSE adds a non-OSI purpose restriction; NOTICE lists Llama 3.2 terms for some CyberSecEval components. This entry does not label the full repository or AgentHarm uniformly MIT.
 - **Evidence:** [README](https://github.com/UKGovernmentBEIS/inspect_evals/blob/eb5383efecd8ac6d23fd276757b811f3db05a1f5/README.md) · 2026-10-09 · Tags: benchmarks, evals, python
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/UKGovernmentBEIS/inspect_evals) · Stars: 720 · Code push: 2026-10-27T06:17:40Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/UKGovernmentBEIS/inspect_evals) · Stars: 720 · Code push: 2026-10-28T03:40:03Z · Archived: false
 
 ### [Promptfoo](https://github.com/promptfoo/promptfoo)
 
@@ -327,7 +327,7 @@ MIT CLI and library for prompt and agent evaluations, model comparisons, and con
 - **License scope:** [MIT](https://github.com/promptfoo/promptfoo/blob/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695/LICENSE) — MIT confirmed in the pinned root LICENSE and the Crescendo provider's separate MIT notice. This entry covers the community CLI/library; Enterprise SaaS and on-prem offerings are documented separately.
 - **Evidence:** [README](https://github.com/promptfoo/promptfoo/blob/e4347d3d0d50b706d9a079d0d96bd1cc5f1c0695/README.md) · 2026-10-09 · Tags: evals, red-teaming, ci
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/promptfoo/promptfoo) · Stars: 26481 · Code push: 2026-10-26T19:28:53Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/promptfoo/promptfoo) · Stars: 26527 · Code push: 2026-10-28T05:10:01Z · Archived: false
 
 ### [Ragas](https://github.com/vibrantlabsai/ragas)
 
@@ -337,7 +337,7 @@ Evaluation toolkit with LLM-based and traditional metrics plus test-data generat
 - **License scope:** [Apache-2.0](https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/LICENSE) — Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.
 - **Evidence:** [README](https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/README.md) · 2026-10-09 · Tags: rag, metrics, test-generation
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/vibrantlabsai/ragas) · Stars: 16161 · Code push: 2026-02-24T07:47:19Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/vibrantlabsai/ragas) · Stars: 16168 · Code push: 2026-02-24T07:47:19Z · Archived: false
 
 <a id="security"></a>
 
@@ -351,7 +351,7 @@ Apache-2.0 command-line vulnerability scanner with probes and detectors for LLM 
 - **License scope:** [Apache-2.0](https://github.com/NVIDIA/garak/blob/6cea0c92ac8c8dfae0165a3ec47ed4e228299354/LICENSE) — Apache-2.0 confirmed for the scanner source. The bundled HarmBench data has a separate MIT notice.
 - **Evidence:** [README](https://github.com/NVIDIA/garak/blob/6cea0c92ac8c8dfae0165a3ec47ed4e228299354/README.md) · 2026-10-09 · Tags: red-teaming, scanner, python
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/NVIDIA/garak) · Stars: 9717 · Code push: 2026-10-23T14:24:38Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/NVIDIA/garak) · Stars: 9734 · Code push: 2026-10-27T18:16:24Z · Archived: false
 
 ### [Guardrails AI](https://github.com/guardrails-ai/guardrails)
 
@@ -361,7 +361,7 @@ Apache-2.0 Python framework for composing input/output validators and generating
 - **License scope:** [Apache-2.0](https://github.com/guardrails-ai/guardrails/blob/06d0ff2c5f9bcb493d976b76f885e37e41ce845d/LICENSE) — Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.
 - **Evidence:** [README](https://github.com/guardrails-ai/guardrails/blob/06d0ff2c5f9bcb493d976b76f885e37e41ce845d/README.md) · 2026-10-09 · Tags: guardrails, validation, python
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/guardrails-ai/guardrails) · Stars: 7562 · Code push: 2026-10-27T02:41:28Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/guardrails-ai/guardrails) · Stars: 7564 · Code push: 2026-10-27T17:24:12Z · Archived: false
 
 ### [Invariant Guardrails](https://github.com/invariantlabs-ai/invariant)
 
@@ -371,7 +371,7 @@ Apache-2.0 policy engine for matching agent messages, tool calls, and data flows
 - **License scope:** [Apache-2.0](https://github.com/invariantlabs-ai/invariant/blob/2340fe2d9cd619f73d5b67fa05bf8a08c7cad515/LICENSE) — Apache-2.0 was confirmed in the actual license file at the cited commit. Bundled third-party components retain their own notices.
 - **Evidence:** [README](https://github.com/invariantlabs-ai/invariant/blob/2340fe2d9cd619f73d5b67fa05bf8a08c7cad515/README.md) · 2026-10-09 · Tags: guardrails, policy, mcp
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/invariantlabs-ai/invariant) · Stars: 475 · Code push: 2026-01-12T12:50:28Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/invariantlabs-ai/invariant) · Stars: 475 · Code push: 2026-01-12T12:50:28Z · Archived: false
 
 ### [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)
 
@@ -381,7 +381,7 @@ Programmable guardrails library for LLM conversations, dialog flows, and input/o
 - **License scope:** [Apache-2.0](https://github.com/NVIDIA-NeMo/Guardrails/blob/7de04a5252ac470e2d562bd281814952672a9bde/LICENSE.md) — Manually confirmed from the pinned LICENSE.md, which explicitly states Apache-2.0; GitHub API reports NOASSERTION.
 - **Evidence:** [README](https://github.com/NVIDIA-NeMo/Guardrails/blob/7de04a5252ac470e2d562bd281814952672a9bde/README.md) · 2026-10-09 · Tags: guardrails, dialog, python
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/NVIDIA-NeMo/Guardrails) · Stars: 7376 · Code push: 2026-10-26T21:41:58Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/NVIDIA-NeMo/Guardrails) · Stars: 7384 · Code push: 2026-10-28T02:25:23Z · Archived: false
 
 ### [REA Pentest Playbook Skill](https://github.com/henryli777/rea--pentest-playbook-skill) · **Curator project**
 
@@ -391,7 +391,7 @@ A thin skill and Python CLI for an authorized recon, scan, verify and report wor
 - **License scope:** [MIT](https://github.com/henryli777/rea--pentest-playbook-skill/blob/228ae444714bae7f3dce1ee8cbee0ce0cf334664/LICENSE)
 - **Evidence:** [README](https://github.com/henryli777/rea--pentest-playbook-skill/blob/228ae444714bae7f3dce1ee8cbee0ce0cf334664/README.md) · 2026-10-09 · Tags: skill, python, pentest, evidence
 
-- **Metadata refreshed:** 2026-10-27T06:24:39Z · [GitHub API](https://api.github.com/repos/henryli777/rea--pentest-playbook-skill) · Stars: 1 · Code push: 2026-10-26T07:55:06Z · Archived: false
+- **Metadata refreshed:** 2026-10-28T06:54:54Z · [GitHub API](https://api.github.com/repos/henryli777/rea--pentest-playbook-skill) · Stars: 1 · Code push: 2026-10-27T08:01:37Z · Archived: false
 
 ## Preview and maintain
 
